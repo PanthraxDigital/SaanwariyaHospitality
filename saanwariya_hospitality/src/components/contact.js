@@ -1,15 +1,15 @@
-import React from 'react'
-// import '../styles/contact_styles.css'
-// import '../styles/contact_responsive.css'
+import React from "react";
+import "../styles/contact_styles.css";
+import "../styles/contact_responsive.css";
 // import '../styles/bootstrap4/bootstrap.min.css'
 
 const contact = () => (
   <div>
     <div classNameName="home">
       <div className="home_background parallax-window" data-parallax="scroll" />
-      <img src={require('../images/contact_background.jpg')} />
-      <div className="home_content" >
-        <div className="home_title" style={{ bottom: '-115px' }}>contact</div>
+      <img src={require("../images/contact_background.jpg")} />
+      <div className="home_content">
+        <div className="home_title">contact</div>
       </div>
     </div>
 
@@ -62,7 +62,8 @@ const contact = () => (
                   id="form_submit_button"
                   className="form_submit_button button trans_200"
                 >
-                  send message<span />
+                  send message
+                  <span />
                   <span />
                   <span />
                 </button>
@@ -78,7 +79,7 @@ const contact = () => (
         <div className="row">
           <div className="col-lg-5">
             <div className="about_image">
-              <img src={require('../images/man.png')} alt="" />
+              <img src={require("../images/man.png")} alt="" />
             </div>
           </div>
 
@@ -87,8 +88,8 @@ const contact = () => (
               <div className="logo_container about_logo">
                 <div className="logo">
                   <a href="#">
-                    <img src={require('../images/logo.png')} alt="" />
-                    <span style={{ fontSize: '20px' }}>
+                    <img src={require("../images/logo.png")} alt="" />
+                    <span style={{ fontSize: "20px" }}>
                       saanwariya Hospitality
                     </span>
                   </a>
@@ -124,7 +125,7 @@ const contact = () => (
                 <li className="contact_info_item d-flex flex-row">
                   <div>
                     <div className="contact_info_icon">
-                      <img src={require('../images/placeholder.svg')} alt="" />
+                      <img src={require("../images/placeholder.svg")} alt="" />
                     </div>
                   </div>
                   <div className="contact_info_text">Kutch Gujarat</div>
@@ -132,7 +133,7 @@ const contact = () => (
                 <li className="contact_info_item d-flex flex-row">
                   <div>
                     <div className="contact_info_icon">
-                      <img src={require('../images/phone-call.svg')} alt="" />
+                      <img src={require("../images/phone-call.svg")} alt="" />
                     </div>
                   </div>
                   <div className="contact_info_text">+91 96383 97591</div>
@@ -140,7 +141,7 @@ const contact = () => (
                 <li className="contact_info_item d-flex flex-row">
                   <div>
                     <div className="contact_info_icon">
-                      <img src={require('../images/message.svg')} alt="" />
+                      <img src={require("../images/message.svg")} alt="" />
                     </div>
                   </div>
                   <div className="contact_info_text">
@@ -155,7 +156,7 @@ const contact = () => (
                 <li className="contact_info_item d-flex flex-row">
                   <div>
                     <div className="contact_info_icon">
-                      <img src={require('../images/planet-earth.svg')} alt="" />
+                      <img src={require("../images/planet-earth.svg")} alt="" />
                     </div>
                   </div>
                   <div className="contact_info_text">
@@ -169,6 +170,6 @@ const contact = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default contact
+export default contact;

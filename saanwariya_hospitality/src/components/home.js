@@ -18,7 +18,7 @@ class Home extends React.Component {
       })();
       `);
     script.appendChild(scriptText);
-    //document.head.appendChild(script);
+    document.head.appendChild(script);
   }
 
   render() {

@@ -434,7 +434,7 @@ section {
 *********************************/
 
 .main_nav_container {
-  margin-right: 221px;
+  margin-right: 0px;
 }
 .main_nav_item {
   position: relative;
@@ -699,8 +699,9 @@ section {
 .home_title {
   font-size: 72px;
   font-weight: 800;
-  color: rebeccapurple;
+  color: white;
   text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*********************************
@@ -717,6 +718,10 @@ section {
   position: absolute;
   right: 0;
   top: 13px;
+}
+
+.intro_image img {
+  width: 100%;
 }
 .intro_title {
   font-size: 30px;

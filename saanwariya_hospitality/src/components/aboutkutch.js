@@ -1,29 +1,24 @@
-import React from 'react'
-// import '../styles/about_styles.css'
-// import '../styles/about_responsive.css'
-// import '../styles/bootstrap4/bootstrap.min.css'
+import React from "react";
+import "../styles/about_styles.css";
+import "../styles/about_responsive.css";
 
 const aboutkutch = () => (
   <div>
-    {/* <!-- Home --> */}
-
     <div className="home">
       <div className="home_background parallax-window" data-parallax="scroll">
-        <img src={require('../images/elements_background.jpg')} alt="" />
+        <img src={require("../images/elements_background.jpg")} alt="" />
       </div>
       <div className="home_content">
         <div className="home_title">about Kutch</div>
       </div>
     </div>
 
-    {/* <!-- Intro --> */}
-
     <div className="intro">
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
-            <div className="intro_image" style={{ padding: '10px' }}>
-              <img src={require('../images/terracotta.jpg')} alt="" />
+            <div className="intro_image" style={{ padding: "10px" }}>
+              <img src={require("../images/terracotta.jpg")} alt="" />
             </div>
           </div>
           <div className="col-lg-5">
@@ -36,11 +31,13 @@ const aboutkutch = () => (
                 rainy season and becomes dry during other seasons. The same word
                 is also used in Sanskrit origin for a tortoise. The Rann is
                 famous for its marshy salt flats which become snow white after
-                the shallow water dries up each season before the monsoon rains.{' '}
+                the shallow water dries up each season before the monsoon rains.{" "}
                 <br />
-                <br />The district is also famous for ecologically important
-                Banni grasslands with their seasonal marshy wetlands which form
-                the outer belt of the Rann of Kutch.<br />
+                <br />
+                The district is also famous for ecologically important Banni
+                grasslands with their seasonal marshy wetlands which form the
+                outer belt of the Rann of Kutch.
+                <br />
                 Kutch District is surrounded by the Gulf of Kutch and the
                 Arabian Sea in south and west, while northern and eastern parts
                 are surrounded by the Great and Little Rann (seasonal wetlands)
@@ -61,17 +58,15 @@ const aboutkutch = () => (
       </div>
     </div>
 
-    {/* <!-- Add --> */}
-
     <div className="add">
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="add_container" style={{ marginBottom: '20px' }}>
+            <div className="add_container" style={{ marginBottom: "20px" }}>
               <div
                 className="add_background"
                 style={{
-                  backgroundImage: `url(${require('../images/rann-utsav.jpg')})`,
+                  backgroundImage: `url(${require("../images/rann-utsav.jpg")})`
                 }}
               />
               <div className="add_content">
@@ -82,7 +77,8 @@ const aboutkutch = () => (
                 <div className="button add_button">
                   <div className="button_bcg" />
                   <a href="#">
-                    Book now<span />
+                    Book now
+                    <span />
                     <span />
                     <span />
                   </a>
@@ -94,6 +90,6 @@ const aboutkutch = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default aboutkutch
+export default aboutkutch;

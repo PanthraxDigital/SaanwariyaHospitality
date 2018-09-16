@@ -1,7 +1,6 @@
 import React from "react";
-// import "../styles/about_responsive.css";
-// import "../styles/about_styles.css";
-
+import "../styles/main_styles.css";
+import "../styles/responsive.css";
 
 const about = () => (
   <div>
@@ -181,3 +180,5 @@ const about = () => (
 );
 
 export default about;
+
+
