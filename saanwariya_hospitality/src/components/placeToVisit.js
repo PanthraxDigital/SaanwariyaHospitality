@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick.css";
 import { Link } from "react-router-dom";
 import placesList from "../content/ListOfVisitPlaces.json";
 
-
 class PlaceToVisit extends React.Component {
   render() {
     var settings = {
@@ -49,8 +48,8 @@ class PlaceToVisit extends React.Component {
             <div>
               <Slider {...settings}>
                 {placesList.map((data, index) => (
-                  <div>
-                    <div className="cta_item text-center" key={index}>
+                  <div key={index}>
+                    <div className="cta_item text-center">
                       <div className="cta_title">{data.title}</div>
                       <img
                         src={`${data.imageUrl}`}

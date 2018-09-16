@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/header";
-import Body from "./components/body";
+import Main from "./components/headerRoute";
 import Footer from "./components/footer";
-
 
 class App extends Component {
   render() {
@@ -12,9 +11,9 @@ class App extends Component {
         {/* Header */}
         <Header />
         {/* Body */}
-        <Body />
+        <Main />
         {/* Footer */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

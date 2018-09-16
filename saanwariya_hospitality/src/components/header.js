@@ -82,7 +82,7 @@ const Header = () => (
                     <Link to="/aboutkutch">Rann Utsav</Link>
                   </li>
                   <li className="main_nav_item">
-                    <a href="blog.html">Gallery</a>
+                    <a href="https://www.instagram.com/saanwariyahospitalityindia/">Gallery</a>
                   </li>
                   <li className="main_nav_item">
                     <Link to="/contact">contact</Link>
