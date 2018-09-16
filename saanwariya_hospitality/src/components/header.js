@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/bootstrap4/bootstrap.min.css";
 import "../styles/main_styles.css";
 import "../styles/responsive.css";
-import "@fortawesome/react-fontawesome";
+// import "@fortawesome/react-fontawesome";
 
 const Header = () => (
   <div>

@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/bootstrap4/bootstrap.min.css";
-import "../styles/about_styles.css";
-import "../styles/about_responsive.css";
+// import "../styles/about_responsive.css";
+// import "../styles/about_styles.css";
+
 
 const about = () => (
   <div>

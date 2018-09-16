@@ -13,7 +13,7 @@ class App extends Component {
         {/* Body */}
         <MainRoute />
         {/* Footer */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }

@@ -405,6 +405,7 @@ section {
   -ms-transform: translateY(-6px);
   -o-transform: translateY(-6px);
   transform: translateY(-6px);
+  
 }
 .header.scrolled .logo_container {
   -webkit-transform: none;
@@ -417,6 +418,7 @@ section {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   color: #f4f4f8;
+  float : left;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -436,7 +438,7 @@ section {
 *********************************/
 
 .main_nav_container {
-  margin-right: 221px;
+  /* margin-right: 221px; */
 }
 .main_nav_item {
   position: relative;

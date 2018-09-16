@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/contact_styles.css'
-import '../styles/contact_responsive.css'
-import '../styles/bootstrap4/bootstrap.min.css'
+// import '../styles/contact_styles.css'
+// import '../styles/contact_responsive.css'
+// import '../styles/bootstrap4/bootstrap.min.css'
 
 const contact = () => (
   <div>

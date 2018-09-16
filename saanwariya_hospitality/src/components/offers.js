@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/bootstrap4/bootstrap.min.css'
-import '../styles/main_styles.css'
+// import '../styles/bootstrap4/bootstrap.min.css'
+// import '../styles/main_styles.css'
 
 const Offers = () => (
   <div className="offers">
