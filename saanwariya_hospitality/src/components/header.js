@@ -5,7 +5,6 @@ import "../styles/main_styles.css";
 import "../styles/responsive.css";
 import "@fortawesome/react-fontawesome";
 
-
 const Header = () => (
   <div>
     {/* <!-- Header --> */}

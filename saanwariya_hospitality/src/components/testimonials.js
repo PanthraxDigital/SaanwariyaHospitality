@@ -5,7 +5,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick-theme.css'
 import 'slick-carousel/slick/slick.css'
 
-import testimonial from '../../content/Testimonial.json'
+import testimonial from '../content/Testimonial.json'
 
 class Testimonial extends React.Component {
   render() {
