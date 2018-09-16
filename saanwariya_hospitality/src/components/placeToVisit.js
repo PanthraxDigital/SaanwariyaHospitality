@@ -40,7 +40,11 @@ class PlaceToVisit extends React.Component {
         <div className="cta">
           <h1
             className="text-center"
-            style={{ color: "white", textTransform: "uppercase" }}
+            style={{
+              color: "white",
+              textTransform: "uppercase",
+              fontWeight: "700"
+            }}
           >
             Places to Visit
           </h1>

@@ -39,8 +39,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @font-face {
   font-family: "Beyond";
-  src: url("/public/fonts/beyond_the_mountains.otf") format("truetype"),
-    url("/public/fonts/beyond_the_mountains.ttf") format("opentype");
+  src: url("../fonts/beyond_the_mountains.otf") format("truetype"),
+    url("../fonts/beyond_the_mountains.ttf") format("opentype");
 }
 
 /*********************************

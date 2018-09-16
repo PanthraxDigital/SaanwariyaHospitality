@@ -1,12 +1,12 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Body from "../components/body";
-import About from "../components/aboutus";
-import Aboutkutch from "../components/aboutkutch";
-import Contact from "../components/contact";
+import Body from "./body";
+import About from "./aboutus";
+import Aboutkutch from "./aboutkutch";
+import Contact from "./contact";
 
 // const HeaderRoute = () => (
-class HeaderRoute extends React.Component {
+class MainRoute extends React.Component {
   render() {
     return (
       <Switch>
@@ -19,4 +19,4 @@ class HeaderRoute extends React.Component {
   }
 }
 
-export default HeaderRoute;
+export default MainRoute;

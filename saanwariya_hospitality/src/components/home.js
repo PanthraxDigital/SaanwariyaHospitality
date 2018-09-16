@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/bootstrap4/bootstrap.min.css";
-import "../styles/main_styles.css";
+//import "../styles/bootstrap4/bootstrap.min.css";
+// import "../styles/main_styles.css";
 import { Link } from "react-router-dom";
 
 class Home extends React.Component {
@@ -18,7 +18,7 @@ class Home extends React.Component {
       })();
       `);
     script.appendChild(scriptText);
-    document.head.appendChild(script);
+    //document.head.appendChild(script);
   }
 
   render() {

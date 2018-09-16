@@ -5,7 +5,7 @@ import Intro from "../components/intro";
 import PlaceToVisit from "../components/placeToVisit";
 import Offers from "../components/offers";
 import Testimonials from "../components/testimonials";
-import Contact from "../components/contact";
+
 
 class Body extends React.Component {
   render() {
@@ -17,16 +17,16 @@ class Body extends React.Component {
         <Search />
 
         {/* <!-- Intro Component--> */}
-        <Intro />
+        {/* <Intro /> */}
 
-        {/* <!-- CTA --> */}
+        {/* <!-- Place to visit --> */}
         <PlaceToVisit />
 
         {/* <!-- Offers --> */}
-        <Offers />
+        {/* <Offers /> */}
 
         {/* <!-- Testimonials --> */}
-        <Testimonials />
+        {/* <Testimonials /> */}
 
       </div>
     );

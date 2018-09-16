@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
+// import "./App.css";
 import Header from "./components/header";
-import Main from "./components/headerRoute";
+import MainRoute from "./components/mainRoute";
 import Footer from "./components/footer";
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
         {/* Header */}
         <Header />
         {/* Body */}
-        <Main />
+        <MainRoute />
         {/* Footer */}
         {/* <Footer /> */}
       </div>
