@@ -780,8 +780,9 @@ section
 {
 	font-size: 72px;
 	font-weight: 800;
-	color: rebeccapurple;
+	color: orange;
 	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /*********************************

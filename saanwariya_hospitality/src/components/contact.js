@@ -5,7 +5,7 @@ import "../styles/contact_responsive.css";
 
 const contact = () => (
   <div>
-    <div classNameName="home">
+    <div className="home">
       <div className="home_background parallax-window" data-parallax="scroll" />
       <img src={require("../images/contact_background.jpg")} />
       <div className="home_content">
