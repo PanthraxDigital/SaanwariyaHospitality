@@ -40,6 +40,9 @@
 ************/
 
 @media only screen and (max-width: 1380px) {
+  .slick-slide img {
+    width: 100%;
+  }
 }
 
 /************
@@ -63,6 +66,9 @@
   .test_slider_next {
     right: 15px;
   }
+  .slick-slide img {
+    width: 100%;
+  }
 }
 
 /************
@@ -83,6 +89,9 @@
   .footer_blog_content {
     padding-left: 74px;
   }
+  .slick-slide img {
+    width: 100%;
+  }
 }
 
 /************
@@ -97,6 +106,9 @@
 ************/
 
 @media only screen and (max-width: 1024px) {
+  .slick-slide img {
+    width: 100%;
+  }
 }
 
 /************
@@ -471,5 +483,17 @@
   .visitTitle {
     color: black;
     margin-top: 75px;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  .slick-slide img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .slick-slide img {
+    width: 100%;
   }
 }

@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 // import '../styles/bootstrap4/bootstrap.min.css'
-// import '../styles/main_styles.css'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick-theme.css'
-import 'slick-carousel/slick/slick.css'
+import "../styles/main_styles.css";
+import "../styles/responsive.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
-import testimonial from '../content/Testimonial.json'
+import testimonial from "../content/Testimonial.json";
 
 class Testimonial extends React.Component {
   render() {
@@ -17,15 +18,23 @@ class Testimonial extends React.Component {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 575,
+          breakpoint: 641,
+          settings: {
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 361,
           settings: {
             infinite: true,
             slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    }
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
 
     return (
       <div className="testimonials">
@@ -47,13 +56,13 @@ class Testimonial extends React.Component {
                         <div className="test_item">
                           <div className="test_image">
                             <img
-                              src={require('../images/test_1.jpg')}
+                              src={require("../images/test_1.jpg")}
                               alt="https://unsplash.com/@anniegray"
                             />
                           </div>
                           <div className="test_icon">
                             <img
-                              src={require('../images/backpack.png')}
+                              src={require("../images/backpack.png")}
                               alt=""
                             />
                           </div>
@@ -79,9 +88,8 @@ class Testimonial extends React.Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Testimonial
-
+export default Testimonial;

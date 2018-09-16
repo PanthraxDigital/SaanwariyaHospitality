@@ -6,28 +6,25 @@ import PlaceToVisit from "../components/placeToVisit";
 import Offers from "../components/offers";
 import Testimonials from "../components/testimonials";
 
-
 class Body extends React.Component {
   render() {
     return (
       <div>
         <Home />
-
         {/* <!-- Search Component --> */}
         <Search />
 
         {/* <!-- Intro Component--> */}
-        {/* <Intro /> */}
+        <Intro />
 
         {/* <!-- Place to visit --> */}
         <PlaceToVisit />
 
         {/* <!-- Offers --> */}
-        {/* <Offers /> */}
+        <Offers />
 
         {/* <!-- Testimonials --> */}
-        {/* <Testimonials /> */}
-
+        <Testimonials />
       </div>
     );
   }
