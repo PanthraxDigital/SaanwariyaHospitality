@@ -8,20 +8,24 @@ import Testimonials from "../components/testimonials";
 
 class Body extends React.Component {
   render() {
+    const hideElement = {
+      display: "none"
+    };
+
     return (
       <div>
         <Home />
         {/* <!-- Search Component --> */}
-        <Search />
+        {/* <Search style={hideElement} /> */}
 
         {/* <!-- Intro Component--> */}
-        <Intro />
+        {/* <Intro /> */}
 
         {/* <!-- Place to visit --> */}
-        <PlaceToVisit />
+        {/* <PlaceToVisit style={hideElement} /> */}
 
         {/* <!-- Offers --> */}
-        <Offers />
+        {/* <Offers style={hideElement} /> */}
 
         {/* <!-- Testimonials --> */}
         <Testimonials />

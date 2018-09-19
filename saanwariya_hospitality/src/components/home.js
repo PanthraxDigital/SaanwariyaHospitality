@@ -22,6 +22,9 @@ class Home extends React.Component {
   }
 
   render() {
+    const hideElement = {
+      display: "none"
+    };
     return (
       <div className="home">
         {/* <!-- Home Slider --> */}
@@ -40,13 +43,12 @@ class Home extends React.Component {
                 <div className="home_slider_content_inner">
                   <h1>discover</h1>
                   <h1>the Kutch</h1>
+
                   <div className="button home_slider_button">
                     <div className="button_bcg" />
-                    <Link to="/aboutkutch">
-                      explore now
-                      <span />
-                      <span />
-                      <span />
+                    <Link to="#" style={{ fontSize: "36px" }}>
+                      with Saanwariya Hospitality
+                      
                     </Link>
                   </div>
                 </div>

@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/contact_styles.css";
 import "../styles/contact_responsive.css";
+import { Link } from "react-router-dom";
 // import '../styles/bootstrap4/bootstrap.min.css'
 
 const contact = () => (
   <div>
     <div className="home">
       <div className="home_background parallax-window" data-parallax="scroll" />
-      <img src={require("../images/contact_background.jpg")} />
+      <img src={require("../images/kutch-rann-utsav.jpg")} />
       <div className="home_content">
         <div className="home_title">contact</div>
       </div>
@@ -39,15 +40,25 @@ const contact = () => (
                   placeholder="E-mail"
                   required="required"
                   data-error="Email is required."
+                  style={{marginBottom : '20px'}}
+                />
+                <input
+                  type="text"
+                  id="contact_form_phone_number"
+                  className="contact_form_name input_field"
+                  placeholder="Phone Number"
+                  required="required"
+                  data-error="Phone Number is required."
                 />
                 <input
                   type="text"
                   id="contact_form_subject"
-                  className="contact_form_subject input_field"
+                  className="contact_form_email input_field"
                   placeholder="Subject"
                   required="required"
                   data-error="Subject is required."
                 />
+
                 <textarea
                   id="contact_form_message"
                   className="text_field contact_form_message"
@@ -116,6 +127,11 @@ const contact = () => (
                   </a>
                 </li>
               </ul>
+              <br />
+              <br />
+              <div>
+                <Link to="/">HOME</Link>
+              </div>
             </div>
           </div>
 
