@@ -46,10 +46,7 @@ class Home extends React.Component {
 
                   <div className="button home_slider_button">
                     <div className="button_bcg" />
-                    <Link to="#" style={{ fontSize: "36px" }}>
-                      with Saanwariya Hospitality
-                      
-                    </Link>
+                    <a href="#">with Saanwariya Hospitality</a>
                   </div>
                 </div>
               </div>

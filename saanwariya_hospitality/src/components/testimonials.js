@@ -48,9 +48,9 @@ class Testimonial extends React.Component {
                 Please talk to our customer service agent or leave your contact
                 details. <br /> We will get it touch with you at the earliest.
               </h3>
-              <h>
-                <Link to="/contact">CONTACT US</Link>
-              </h>
+              <h3>
+                <Link to="/contact">CONTACT NOW</Link>
+              </h3>
               {/* <h3 className="section_title">what our clients say about us</h3> */}
             </div>
           </div>
