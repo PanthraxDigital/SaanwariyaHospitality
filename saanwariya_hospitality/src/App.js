@@ -9,10 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         {/* Header */}
-        {/* <Header /> */}
+        <Header />
         {/* Body */}
         <MainRoute />
-        {/* Footer */}
         <Footer />
       </div>
     );

@@ -43,15 +43,7 @@ class Testimonial extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col text-center">
-              <h1 className="section_title">The site is under construction.</h1>
-              <h3>
-                Please talk to our customer service agent or leave your contact
-                details. <br /> We will get it touch with you at the earliest.
-              </h3>
-              <h3>
-                <Link to="/contact">CONTACT NOW</Link>
-              </h3>
-              {/* <h3 className="section_title">what our clients say about us</h3> */}
+              <h3 className="section_title">what our clients say about us</h3>
             </div>
           </div>
 

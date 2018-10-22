@@ -43,7 +43,7 @@ class PlaceToVisit extends React.Component {
             style={{
               color: "white",
               textTransform: "uppercase",
-              fontWeight: "700"
+              
             }}
           >
             Places to Visit
@@ -65,8 +65,8 @@ class PlaceToVisit extends React.Component {
                       />
 
                       <div className="button cta_button">
-                        <div className="button_bcg" />
-                        <Link to={data.link}>
+                        <div className="button_bcg"  />
+                        <Link to={data.link} style={{fontSize : '12px'}}>
                           Read More
                           <span />
                           <span />
