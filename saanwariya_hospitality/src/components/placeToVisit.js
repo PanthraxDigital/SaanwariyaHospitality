@@ -64,10 +64,10 @@ class PlaceToVisit extends React.Component {
                         }}
                       />
 
-                      <div className="button cta_button">
+                      <div className="button cta_button" style={{ zIndex: 1 }}>
                         <div className="button_bcg" />
                         <Link to={data.link} style={{ fontSize: "12px" }}>
-                          Read More
+                          Explore
                           <span />
                           <span />
                           <span />

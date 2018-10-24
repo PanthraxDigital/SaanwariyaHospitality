@@ -37,7 +37,7 @@ const Packages = () => (
                   href="https://drive.google.com/open?id=1zA3BOD9DnTwgg1H0Hc2bXdievgs37yDI"
                   target="_blank"
                 >
-                  see more<span />
+                  details<span />
                   <span />
                   <span />
                 </a>
@@ -74,7 +74,7 @@ const Packages = () => (
                   href="https://drive.google.com/open?id=1D2scpP4wImnFn09EIStUIOq4lPnEDR9O"
                   target="_blank"
                 >
-                  see more<span />
+                  details<span />
                   <span />
                   <span />
                 </a>
@@ -111,7 +111,7 @@ const Packages = () => (
                   href="https://drive.google.com/open?id=1ZUuDD0r-nvCCuW9jHBoOo-1DQMH9T96T"
                   target="_blank"
                 >
-                  see more<span />
+                  details<span />
                   <span />
                   <span />
                 </a>
