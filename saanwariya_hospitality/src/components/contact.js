@@ -1,6 +1,8 @@
 import React from "react";
-import "../styles/contact_styles.css";
-import "../styles/contact_responsive.css";
+// import "../styles/contact_styles.css";
+// import "../styles/contact_responsive.css";
+import "../styles/main_styles.css";
+import "../styles/responsive.css";
 import { Link } from "react-router-dom";
 // import '../styles/bootstrap4/bootstrap.min.css'
 

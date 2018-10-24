@@ -43,7 +43,11 @@ class Testimonial extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col text-center">
-              <h3 className="section_title">what our clients say about us</h3>
+              <h3 className="section_title">what our visitors say about us</h3>
+              <p>
+                Believe us, visitors are extremely happy with our exorbitant
+                services
+              </p>
             </div>
           </div>
 
@@ -54,12 +58,9 @@ class Testimonial extends React.Component {
                   <Slider {...settings}>
                     {testimonial.map((data, index) => (
                       <div key={index}>
-                        <div className="test_item">
-                          <div className="test_image">
-                            <img
-                              src={require("../images/test_1.jpg")}
-                              alt="https://unsplash.com/@anniegray"
-                            />
+                        <div className="test_item" style={{ height: "30em" }}>
+                          <div className="test_image" >
+                            <img src={require("../images/103.jpeg")} />
                           </div>
                           <div className="test_icon">
                             <img

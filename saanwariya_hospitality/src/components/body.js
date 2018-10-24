@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../components/home";
 import Search from "../components/search";
-import Intro from "../components/intro";
+import Packages from "../components/Packages";
 import PlaceToVisit from "../components/placeToVisit";
 import Offers from "../components/offers";
 import Testimonials from "../components/testimonials";
@@ -16,10 +16,10 @@ class Body extends React.Component {
       <div>
         <Home />
         {/* <!-- Search Component --> */}
-        <Search/>
+        {/* <Search/> */}
 
         {/* <!-- Intro Component--> */}
-        <Intro />
+        <Packages />
 
         {/* <!-- Place to visit --> */}
         <PlaceToVisit  />

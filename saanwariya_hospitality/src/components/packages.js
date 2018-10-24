@@ -1,21 +1,18 @@
 import React from 'react'
-// import '../styles/bootstrap4/bootstrap.min.css'
-// import '../styles/main_styles.css'
 
-const Intro = () => (
-  <div className="intro">
+const Packages = () => (
+  <div className="intro" style={{marginTop:'15em'}}>
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="intro_title text-center">WE HAVE THE BEST PACKAGES</h2>
+          <h2 className="intro_title text-center" style={{marginTop : "20px"}}>WE HAVE THE BEST PACKAGES</h2>
         </div>
       </div>
-      <div className="row">
+      <div className="row" >
         <div className="col-lg-10 offset-lg-1">
-          <div className="intro_text text-center">
+          <div className="intro_text text-center" style={{marginTop:'0px'}}>
             <p>
-              We have created the packages by keeping your comfort in mind. The
-              packages includes lots of FREE stuff which will make your Kutch
+              Packages with lots of FREE stuffs will make your Kutch
               Tour a memorable experience.Which you will cherised throghout your
               life.{' '}
             </p>
@@ -30,7 +27,7 @@ const Intro = () => (
 
             <div
               className="intro_item_background"
-              style={{ backgroundImage: `url(${require('../images/1.jpeg')})` }}
+              style={{ backgroundImage: `url(${require('../images/11.jpeg')})` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
               <div className="intro_date">Nov 01st - Mar 01st</div>
@@ -138,4 +135,4 @@ const Intro = () => (
   </div>
 )
 
-export default Intro
+export default Packages

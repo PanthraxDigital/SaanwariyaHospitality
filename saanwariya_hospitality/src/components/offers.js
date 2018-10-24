@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 // import '../styles/bootstrap4/bootstrap.min.css'
 // import '../styles/main_styles.css'
 
@@ -8,6 +8,10 @@ const Offers = () => (
       <div className="row">
         <div className="col text-center">
           <h2 className="section_title">the best offers with rooms</h2>
+          <p>
+            Feel the extreme level of satisfaction with our artisitically
+            designed rooms
+          </p>
         </div>
       </div>
       <div className="row offers_items">
@@ -20,7 +24,7 @@ const Offers = () => (
                   <div
                     className="offers_image_background"
                     style={{
-                      backgroundImage: `url(${require('../images/4.jpeg')})`,
+                      backgroundImage: `url(${require("../images/19.jpeg")})`
                     }}
                   />
                   <div className="offer_name">
@@ -31,39 +35,40 @@ const Offers = () => (
               <div className="col-lg-6">
                 <div className="offers_content">
                   <div className="offers_price">
-                    6000<span>per night</span>
+                    &#8377;6000
+                    <span>per night</span>
                   </div>
                   <p className="offers_text">
                     The price is for twin sharing basis and including all meals.
                     Get the feel of staying traditional mud houses with latest
                     facilities
                   </p>
-                  {/* <div className="offers_icons">
+                  <div className="offers_icons">
                     <ul className="offers_icons_list">
                       <li className="offers_icons_item">
-                        <img src={`${require('../images/post.png')}`} alt="" />
+                        <img src={`${require("../images/post.png")}`} alt="" />
                       </li>
                       <li className="offers_icons_item">
                         <img
-                          src={`${require('../images/compass.png')}`}
+                          src={`${require("../images/compass.png")}`}
                           alt=""
                         />
                       </li>
                       <li className="offers_icons_item">
                         <img
-                          src={`${require('../images/bicycle.png')}`}
+                          src={`${require("../images/bicycle.png")}`}
                           alt=""
                         />
                       </li>
                       <li className="offers_icons_item">
                         <img
-                          src={`${require('../images/sailboat.png')}`}
+                          src={`${require("../images/sailboat.png")}`}
                           alt=""
                         />
                       </li>
                     </ul>
                   </div>
-                   */}
+
                   <div className="offers_link">
                     <a href="#">read more</a>
                   </div>
@@ -82,7 +87,7 @@ const Offers = () => (
                   <div
                     className="offers_image_background"
                     style={{
-                      backgroundImage: `url(${require('../images/4.jpeg')})`,
+                      backgroundImage: `url(${require("../images/21.jpeg")})`
                     }}
                   />
                   <div className="offer_name">
@@ -93,31 +98,39 @@ const Offers = () => (
               <div className="col-lg-6">
                 <div className="offers_content">
                   <div className="offers_price">
-                    5000<span>per night</span>
+                    &#8377;5000
+                    <span>per night</span>
                   </div>
-
                   <p className="offers_text">
                     The price is on twin sharing basis and including all meals.
                     Get the feel of staying in swizz cottage tents with
                     comfortable facilities.
                   </p>
-                  {/* <div className="offers_icons">
+                  <div className="offers_icons">
                     <ul className="offers_icons_list">
                       <li className="offers_icons_item">
-                        <img src="images/post.png" alt="" />
+                        <img src={`${require("../images/post.png")}`} alt="" />
                       </li>
                       <li className="offers_icons_item">
-                        <img src="images/compass.png" alt="" />
+                        <img
+                          src={`${require("../images/compass.png")}`}
+                          alt=""
+                        />
                       </li>
                       <li className="offers_icons_item">
-                        <img src="images/bicycle.png" alt="" />
+                        <img
+                          src={`${require("../images/bicycle.png")}`}
+                          alt=""
+                        />
                       </li>
                       <li className="offers_icons_item">
-                        <img src="images/sailboat.png" alt="" />
+                        <img
+                          src={`${require("../images/sailboat.png")}`}
+                          alt=""
+                        />
                       </li>
                     </ul>
                   </div>
-                  */}
                   <div className="offers_link">
                     <a href="#">read more</a>
                   </div>
@@ -248,6 +261,6 @@ const Offers = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Offers
+export default Offers;

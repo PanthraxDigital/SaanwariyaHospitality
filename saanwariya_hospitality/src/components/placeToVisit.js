@@ -42,11 +42,11 @@ class PlaceToVisit extends React.Component {
             className="text-center"
             style={{
               color: "white",
-              textTransform: "uppercase",
-              
+              fontSize: "44px",
+              paddingTop: "0.5em"
             }}
           >
-            Places to Visit
+            Places to Explore
           </h1>
           <div className="container">
             <div>
@@ -59,14 +59,14 @@ class PlaceToVisit extends React.Component {
                         src={`${data.imageUrl}`}
                         style={{
                           display: "inline",
-                          marginTop: "20px",
-                          height: "250px"
+                          marginTop: "0px",
+                          height: "15em "
                         }}
                       />
 
                       <div className="button cta_button">
-                        <div className="button_bcg"  />
-                        <Link to={data.link} style={{fontSize : '12px'}}>
+                        <div className="button_bcg" />
+                        <Link to={data.link} style={{ fontSize: "12px" }}>
                           Read More
                           <span />
                           <span />

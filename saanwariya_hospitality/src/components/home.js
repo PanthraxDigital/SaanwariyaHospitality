@@ -2,6 +2,9 @@ import React from "react";
 //import "../styles/bootstrap4/bootstrap.min.css";
 // import "../styles/main_styles.css";
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -22,22 +25,50 @@ class Home extends React.Component {
   }
 
   render() {
-    const hideElement = {
-      display: "none"
+    var settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 5000,
+      cssEase: "linear",
+      arrows: false
     };
     return (
-      <div className="home">
+      <div className="home" style={{marginBottom : "30px"}}>
         {/* <!-- Home Slider --> */}
         <div className="home_slider_container">
           <div className="owl-carousel owl-theme home_slider">
             {/* <!-- Slider Item Component--> */}
             <div className="home_slider_item">
-              <div
+              <Slider {...settings}>
+                <div>
+                  <img src={require("../images/1.jpeg")} />
+                </div>
+                <div>
+                  <img src={require("../images/2.jpeg")} />
+                </div>
+                <div>
+                  <img src={require("../images/3.jpeg")} />
+                </div>
+                <div>
+                  <img src={require("../images/4.jpeg")} />
+                </div>
+                <div>
+                  <img src={require("../images/5.jpeg")} />
+                </div>
+                <div>
+                  <img src={require("../images/7.jpeg")} />
+                </div>
+              </Slider>
+              {/* <div
                 className="home_slider_background"
                 style={{
                   backgroundImage: `url(${require("../images/dessert_1.jpg")})`
                 }}
-              />
+              /> */}
 
               <div className="home_slider_content text-center">
                 <div className="home_slider_content_inner">
