@@ -48,6 +48,11 @@
     url("../fonts//beyond_the_mountains.ttf") format("opentype");
 }
 
+@import url("https://fonts.googleapis.com/css?family=Lovers+Quarrel");
+@font-face {
+  font-family: "Lovers Quarrel";
+}
+
 /*********************************
 2. Body and some general stuff
 *********************************/
@@ -256,7 +261,7 @@ section {
   width: 36px;
 }
 
-.button_bcg span{
+.button_bcg span {
   font-size: 36px;
 }
 
@@ -1044,19 +1049,24 @@ section {
   padding-bottom: 105px;
 }
 .intro_title {
-  font-weight: 700;
-  color: #2d2c2c;
-  margin-top: -14px;
+  font-size: 5em;
+  color: #6f42c1;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Lovers Quarrel";
+  
+  
 }
 .intro_text {
   margin-top: 21px;
 }
 .intro_text p {
-  font-size: 24px;
-  font-style: italic;
+  font-size: 1.2em;
   color: #929191;
-  line-height: 1.336;
+  font-style: italic;
+  line-height: 1.2em;
   margin-bottom: 0px;
+  
 }
 .intro_items {
   margin-top: 69px;
@@ -1195,7 +1205,7 @@ section {
 *********************************/
 
 .cta {
-  background: url('../images/30.jpeg');
+  background: url("../images/30.jpeg");
   opacity: 0.8px;
   padding-bottom: 5em;
 }
@@ -1338,11 +1348,11 @@ section {
 
 .offers {
   width: 100%;
-  padding-top: 5em;
+  padding-top: 2em;
   background: #f3f6f9;
 }
 .offers_items {
-  margin-top: 5em;
+  margin-top: 2em;
 }
 .offers_col {
   margin-bottom: 83px;
@@ -1442,8 +1452,8 @@ section {
 
 .testimonials {
   width: 100%;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   background: #ffffff;
 }
 .test_border {
@@ -2066,7 +2076,6 @@ section {
   text-transform: uppercase;
 }
 
-
 .stats {
   padding-top: 100px;
   padding-bottom: 105px;
@@ -2158,7 +2167,6 @@ section {
   top: -39px;
 }
 
-
 /*********************************
 4. Home
 *********************************/
@@ -2215,12 +2223,7 @@ section {
 .intro_image img {
   width: 100%;
 }
-.intro_title {
-  font-size: 30px;
-  font-weight: 700;
-  color: #2d2c2c;
-  text-transform: uppercase;
-}
+
 .intro_text {
   margin-bottom: 0px;
   font-weight: 600;
@@ -2247,8 +2250,6 @@ section {
 /*********************************
 7. Rating
 *********************************/
-
-
 
 .rating {
   margin-top: 10px;
@@ -2369,4 +2370,3 @@ section {
   color: #ef910a;
   content: "\f005";
 }
-

@@ -38,16 +38,12 @@ class PlaceToVisit extends React.Component {
     return (
       <div>
         <div className="cta">
-          <h1
-            className="text-center"
-            style={{
-              color: "white",
-              fontSize: "44px",
-              paddingTop: "0.5em"
-            }}
+          <div
+            className="intro_title text-center"
+            style={{ marginTop: "0px", color: "white" }}
           >
             Places to Explore
-          </h1>
+          </div>
           <div className="container">
             <div>
               <Slider {...settings}>

@@ -5,21 +5,21 @@ const Packages = () => (
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="intro_title text-center" style={{marginTop : "20px"}}>WE HAVE THE BEST PACKAGES</h2>
+          <h2 className="intro_title text-center" >We have best packages</h2>
         </div>
       </div>
-      <div className="row" >
+      {/* <div className="row" >
         <div className="col-lg-10 offset-lg-1">
           <div className="intro_text text-center" style={{marginTop:'0px'}}>
             <p>
               Packages with lots of FREE stuffs will make your Kutch
-              Tour a memorable experience.Which you will cherised throghout your
+              Tour a memorable experience. <br></br>Which you will cherised throghout your
               life.{' '}
             </p>
           </div>
         </div>
-      </div>
-      <div className="row intro_items">
+      </div> */}
+      <div className="row intro_items" style={{margin:'1em'}}>
         {/* <!-- Intro Item --> */}
         <div className="col-lg-4 intro_col">
           <div className="intro_item">

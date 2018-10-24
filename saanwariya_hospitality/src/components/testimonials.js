@@ -43,11 +43,9 @@ class Testimonial extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col text-center">
-              <h3 className="section_title">what our visitors say about us</h3>
-              <p>
-                Believe us, visitors are extremely happy with our exorbitant
-                services
-              </p>
+              <h2 className="intro_title text-center">
+                What our visitors says about us
+              </h2>
             </div>
           </div>
 
@@ -59,7 +57,7 @@ class Testimonial extends React.Component {
                     {testimonial.map((data, index) => (
                       <div key={index}>
                         <div className="test_item" style={{ height: "30em" }}>
-                          <div className="test_image" >
+                          <div className="test_image">
                             <img src={require("../images/103.jpeg")} />
                           </div>
                           <div className="test_icon">

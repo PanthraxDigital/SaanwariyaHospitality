@@ -7,11 +7,13 @@ const Offers = () => (
     <div className="container">
       <div className="row">
         <div className="col text-center">
-          <h2 className="section_title">the best offers with rooms</h2>
-          <p>
-            Feel the extreme level of satisfaction with our artisitically
-            designed rooms
-          </p>
+          <h2 className="intro_title text-center">Rooms with great ambience</h2>
+          {/* <div className="intro_text text-center" style={{ marginTop: "0px" }}>
+            <p>
+              Feel the extreme level of satisfaction with our artisitically
+              designed rooms
+            </p>
+          </div> */}
         </div>
       </div>
       <div className="row offers_items">
