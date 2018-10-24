@@ -1,16 +1,13 @@
 import React from "react";
-// import "../styles/contact_styles.css";
-// import "../styles/contact_responsive.css";
 import "../styles/main_styles.css";
 import "../styles/responsive.css";
 import { Link } from "react-router-dom";
-// import '../styles/bootstrap4/bootstrap.min.css'
 
 const contact = () => (
   <div>
     <div className="home">
       <div className="home_background parallax-window" data-parallax="scroll" />
-      <img src={require("../images/kutch-rann-utsav.jpg")} />
+      <img src={require("../images/33.jpeg")} />
       <div className="home_content">
         <div className="home_title">contact</div>
       </div>
@@ -132,7 +129,7 @@ const contact = () => (
               <br />
               <br />
               <div>
-                <Link to="/">HOME</Link>
+                
               </div>
             </div>
           </div>

@@ -9,22 +9,22 @@ const aboutkutch = () => (
         <img src={require("../images/8.jpeg")} alt="" />
       </div>
       <div className="home_content">
-        <div className="home_title">about Kutch</div>
+        <div className="home_title">Rann of Kutch</div>
       </div>
     </div>
 
-    <div className="intro">
+    <div className="intro" style={{paddingTop:'10px'}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
             <div className="intro_image" style={{ padding: "10px" }}>
-              <img src={require("../images/terracotta.jpg")} alt="" />
+              <img src={require("../images/30.jpeg")} alt="" />
             </div>
           </div>
           <div className="col-lg-5">
             <div className="intro_content">
               <div className="intro_title">Experience the Kutch</div>
-              <p className="intro_text">
+              <p className="intro_text" style={{marginTop:'0px'}}>
                 Rann of Kutch is a vast ocean of cultural beauty. The
                 spectacular sight of the boundless white desert under the
                 moonlight, presents the stunning creation of nature. It is
@@ -69,22 +69,17 @@ const aboutkutch = () => (
               <div
                 className="add_background"
                 style={{
-                  backgroundImage: `url(${require("../images/rann-utsav.jpg")})`
+                  backgroundImage: `url(${require("../images/29.jpeg")})`
                 }}
               />
               <div className="add_content">
-                <h1 className="add_title">Amazing Kutch</h1>
+                <h1 className="add_title">Amazing the Rann of Kutch</h1>
                 <div className="add_subtitle">
                   From <span>5000/-</span> onwards
                 </div>
                 <div className="button add_button">
                   <div className="button_bcg" />
-                  <a href="#">
-                    Book now
-                    <span />
-                    <span />
-                    <span />
-                  </a>
+                  
                 </div>
               </div>
             </div>

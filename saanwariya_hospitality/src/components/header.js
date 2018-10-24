@@ -94,7 +94,7 @@ class Header extends React.Component {
                         <Link to="/aboutkutch">Rann Utsav</Link>
                       </li>
                       <li className="main_nav_item">
-                        <a href="https://www.instagram.com/saanwariyahospitalityindia/">
+                        <a href="/gallery">
                           Gallery
                         </a>
                       </li>

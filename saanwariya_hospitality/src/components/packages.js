@@ -5,7 +5,7 @@ const Packages = () => (
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="intro_title text-center" >We have best packages</h2>
+          <h2 className="intro_title text-center" >We have the best packages</h2>
         </div>
       </div>
       {/* <div className="row" >

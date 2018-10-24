@@ -17,18 +17,18 @@ const about = () => (
 
     {/* <!-- Intro --> */}
 
-    <div className="intro">
+    <div className="intro" style={{padding:'10px'}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
             <div className="intro_image">
-              <img src={require("../images/intro.png")} alt="" />
+              <img src={require("../images/28.jpeg")} alt="" />
             </div>
           </div>
           <div className="col-lg-5">
             <div className="intro_content">
               <div className="intro_title">Saanwariya Hospitality</div>
-              <p className="intro_text">
+              <p className="intro_text" style={{margin:'0'}}>
                 Saanwariya Hospitality got its name from Saanwariya Sheth Temple
                 in Rajasthan, dedicated to Lord Shri Krishna, under whose
                 blessings Saanwariya Hospitality came into being. We first
@@ -58,7 +58,7 @@ const about = () => (
 
     {/* <!-- Add --> */}
 
-    <div className="add">
+    <div className="add" style={{marginTop:'3em'}}>
       <div className="container">
         <div className="row">
           <div className="col">
@@ -66,21 +66,17 @@ const about = () => (
               <div
                 className="add_background"
                 style={{
-                  backgroundImage: `url(${require("../images/kutch-rann-utsav.jpg")})`
+                  backgroundImage: `url(${require("../images/32.jpeg")})`
                 }}
               />
               <div className="add_content">
-                <h1 className="add_title">Amazing Kutch</h1>
+                <h1 className="add_title">Amazing Tents & Bhungas</h1>
                 <div className="add_subtitle">
                   From <span>5000/-</span> onwards
                 </div>
                 <div className="button add_button">
                   <div className="button_bcg" />
                   <a href="#">
-                    book now
-                    <span />
-                    <span />
-                    <span />
                   </a>
                 </div>
               </div>
