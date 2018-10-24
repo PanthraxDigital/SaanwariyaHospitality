@@ -94,6 +94,11 @@ class Header extends React.Component {
                         <Link to="/aboutkutch">Rann Utsav</Link>
                       </li>
                       <li className="main_nav_item">
+                        <a href="/places">
+                          Place to Visit
+                        </a>
+                      </li>
+                      <li className="main_nav_item">
                         <a href="/gallery">
                           Gallery
                         </a>

@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import Lightbox from 'react-images';
+import { render } from "react-dom";
+//import Lightbox from "react-images";
+import GalImages from "react-grid-gallery";
 
 class Gallery extends Component {
   constructor() {
@@ -50,76 +52,40 @@ class Gallery extends Component {
     if (this.state.currentImage === this.props.images.length - 1) return;
     this.gotoNext();
   }
-//   renderGallery() {
-//     const { images } = this.props;
-
-//     if (!images) return;
-
-//     const gallery = images.filter(i => i.useForDemo).map((obj, i) => {
-//       return (
-//         <a
-//           href={obj.src}
-//           className={css(classes.thumbnail, classes[obj.orientation])}
-//           key={i}
-//           onClick={e => this.openLightbox(i, e)}
-//         >
-//           <img src={obj.thumbnail} className={css(classes.source)} />
-//         </a>
-//       );
-//     });
-
-//     return <div className={css(classes.gallery)}>{gallery}</div>;
-//   }
 
   render() {
-    return (
-      <div>
-        {/* {this.props.heading && <h2>{this.props.heading}</h2>}
-        {this.props.subheading && <p>{this.props.subheading}</p>}
-        {this.renderGallery()} */}
-        <Lightbox
-          currentImage={this.state.currentImage}
-          images={[
-            {
-              src: require("../images/1.jpeg"),
-              caption: "Photo by Alan Emery",
-              orientation: "square",
-              
-            },
-            {
-              src: require("../images/2.jpeg"),
-              caption: "Photo by Alan Emery",
-              orientation: "square",
-              useForDemo: true
-            },
-            {
-              src: require("../images/3.jpeg"),
-              caption: "Photo by Alan Emery",
-              orientation: "square",
-              useForDemo: true
-            },
-            {
-              src: require("../images/4.jpeg"),
-              caption: "Photo by Alan Emery",
-              orientation: "square",
-              useForDemo: true
-            }
-          ]}
-          isOpen={this.state.lightboxIsOpen}
-          onClickImage={this.handleClickImage}
-          onClickNext={this.gotoNext}
-          onClickPrev={this.gotoPrevious}
-          onClickThumbnail={this.gotoImage}
-          onClose={this.closeLightbox}
-        //   preventScroll={this.props.preventScroll}
-        //   showThumbnails={this.props.showThumbnails}
-        //   spinner={this.props.spinner}
-        //   spinnerColor={this.props.spinnerColor}
-        //   spinnerSize={this.props.spinnerSize}
-        //   theme={this.props.theme}
-        />
-      </div>
-    );
+    const IMAGES = [
+      {
+        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+        thumbnail:
+          "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 174,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+      },
+      {
+        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+        thumbnail:
+          "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [
+          { value: "Ocean", title: "Ocean" },
+          { value: "People", title: "People" }
+        ],
+        caption: "Boats (Jeshu John - designerspics.com)"
+      },
+
+      {
+        src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+        thumbnail:
+          "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+      }
+    ];
+    return <GalImages images={IMAGES} />;
   }
 }
 
@@ -183,5 +149,26 @@ class Gallery extends Component {
 //     width: "auto"
 //   }
 // });
+
+//   renderGallery() {
+//     const { images } = this.props;
+
+//     if (!images) return;
+
+//     const gallery = images.filter(i => i.useForDemo).map((obj, i) => {
+//       return (
+//         <a
+//           href={obj.src}
+//           className={css(classes.thumbnail, classes[obj.orientation])}
+//           key={i}
+//           onClick={e => this.openLightbox(i, e)}
+//         >
+//           <img src={obj.thumbnail} className={css(classes.source)} />
+//         </a>
+//       );
+//     });
+
+//     return <div className={css(classes.gallery)}>{gallery}</div>;
+//   }
 
 export default Gallery;
