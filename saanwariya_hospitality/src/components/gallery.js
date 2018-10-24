@@ -56,119 +56,91 @@ class Gallery extends Component {
   render() {
     const IMAGES = [
       {
-        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-        thumbnail:
-          "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+        src: require("../images/2.jpeg"),
+        thumbnail: require("../images/2.jpeg"),
+        caption:
+          "The deity garden that is inhabited by the presiding deity of Saanwariya Hospitality's Kutch Resort, Sri Krishna or Saanwariya, meaning the one who has a black complexion.",
         thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        isSelected: true,
-        caption: "After Rain (Jeshu John - designerspics.com)"
+        thumbnailHeight: 212
       },
       {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail:
-          "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+        src: require("../images/4.jpeg"),
+        thumbnail: require("../images/4.jpeg"),
+        caption:
+          "The open sky dining section which gives us the most beautiful view to behold, the starlit sky",
         thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [
-          { value: "Ocean", title: "Ocean" },
-          { value: "People", title: "People" }
-        ],
-        caption: "Boats (Jeshu John - designerspics.com)"
+        thumbnailHeight: 212
       },
-
       {
-        src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-        thumbnail:
-          "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+        src: require("../images/20.jpeg"),
+        thumbnail: require("../images/20.jpeg"),
+        caption:
+          "The Bhunga or traditional cottage that is unique to the region of Kutch, gives you the authentic desert experience with a thatched roof, yet is loaded with modern amenities at the Kutch Resort to ensure a comfortable and luxurious stay.",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+      },
+      {
+        src: require("../images/1.jpeg"),
+        thumbnail: require("../images/1.jpeg"),
+        caption:
+          "Saanwariya Hospitality's Kutch Resort is spread over 1.75 acres of land, comprising of tent and cottage accomodations for an authentic desert experience, closest to the White Rann or the salt desert which is only 7 kms away.",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+      },
+      {
+        src: require("../images/3.jpeg"),
+        thumbnail: require("../images/3.jpeg"),
+        caption:
+          "Saanwariya Hospitality's Kutch Resort is spread over 1.75 acres of land, comprising of tent and cottage accomodations for an authentic desert experience, closest to the White Rann or the salt desert which is only 7 kms away.",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+      },
+      {
+        src: require("../images/23.jpeg"),
+        thumbnail: require("../images/23.jpeg"),
+        caption:
+          "The picturesque beauty of the sunsets viewed from Saanwariya Hospitality's Kutch Resort is every photographer and nature lover's delight!",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+      },
+      {
+        src: require("../images/29.jpeg"),
+        thumbnail: require("../images/29.jpeg"),
+        caption:
+          "The desert moon makes the ambience serene and ignites passion in our hearts, just like a lovers' touch.",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+      },
+      {
+        src: require("../images/15.jpeg"),
+        thumbnail: require("../images/15.jpeg"),
+        caption:
+          "The tent section consisting of more than a dozen tents spread over 15000 sq ft, makes it an ideal camping place for small as well as large groups.",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+      },
+      {
+        src: require("../images/6.jpeg"),
+        thumbnail: require("../images/6.jpeg"),
+        caption:
+          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
         thumbnailWidth: 320,
         thumbnailHeight: 212
       }
     ];
-    return <GalImages images={IMAGES} />;
+    return (
+      <div>
+        <div className="home" style={{ height: "13em" }} />
+        <div className="container">
+          <div className="row">
+            <div className="col" style={{ marginBottom: "4em" }}>
+              <GalImages images={IMAGES} />
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
-
-// Gallery.displayName = "Gallery";
-// Gallery.propTypes = {
-//   heading: PropTypes.string,
-//   images: PropTypes.array,
-//   showThumbnails: PropTypes.bool,
-//   subheading: PropTypes.string
-// };
-
-// const gutter = {
-//   small: 2,
-//   large: 4
-// };
-// const classes = StyleSheet.create({
-//   gallery: {
-//     marginRight: -gutter.small,
-//     overflow: "hidden",
-
-//     "@media (min-width: 500px)": {
-//       marginRight: -gutter.large
-//     }
-//   },
-
-//   // anchor
-//   thumbnail: {
-//     boxSizing: "border-box",
-//     display: "block",
-//     float: "left",
-//     lineHeight: 0,
-//     paddingRight: gutter.small,
-//     paddingBottom: gutter.small,
-//     overflow: "hidden",
-
-//     "@media (min-width: 500px)": {
-//       paddingRight: gutter.large,
-//       paddingBottom: gutter.large
-//     }
-//   },
-
-//   // orientation
-//   landscape: {
-//     width: "30%"
-//   },
-//   square: {
-//     paddingBottom: 0,
-//     width: "40%",
-
-//     "@media (min-width: 500px)": {
-//       paddingBottom: 0
-//     }
-//   },
-
-//   // actual <img />
-//   source: {
-//     border: 0,
-//     display: "block",
-//     height: "auto",
-//     maxWidth: "100%",
-//     width: "auto"
-//   }
-// });
-
-//   renderGallery() {
-//     const { images } = this.props;
-
-//     if (!images) return;
-
-//     const gallery = images.filter(i => i.useForDemo).map((obj, i) => {
-//       return (
-//         <a
-//           href={obj.src}
-//           className={css(classes.thumbnail, classes[obj.orientation])}
-//           key={i}
-//           onClick={e => this.openLightbox(i, e)}
-//         >
-//           <img src={obj.thumbnail} className={css(classes.source)} />
-//         </a>
-//       );
-//     });
-
-//     return <div className={css(classes.gallery)}>{gallery}</div>;
-//   }
 
 export default Gallery;

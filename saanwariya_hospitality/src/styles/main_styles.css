@@ -738,6 +738,7 @@ section {
 .home_slider_content h1:first-child {
   font-size: 112px;
   font-weight: 900;
+  margin-top: 2em;
   color: #ffffff;
   text-transform: uppercase;
 }
