@@ -23,7 +23,7 @@ class Testimonial extends React.Component {
           breakpoint: 641,
           settings: {
             infinite: true,
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1
           }
         },
@@ -57,7 +57,7 @@ class Testimonial extends React.Component {
                   <Slider {...settings}>
                     {testimonial.map((data, index) => (
                       <div key={index}>
-                        <div className="test_item" style={{ height: "30em" }}>
+                        <div className="test_item" >
                           <div className="test_image">
                             <img src={require("../images/103.jpeg")} />
                           </div>
