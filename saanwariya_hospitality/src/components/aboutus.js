@@ -6,29 +6,32 @@ const about = () => (
   <div>
     {/* <!-- Home --> */}
 
-    <div className="home">
-      <div className="home_background parallax-window" data-parallax="scroll">
+    <div className="home home_375">
+      <div>
         <img src={require("../images/6.jpeg")} alt="" />
       </div>
-      <div className="home_content" style={{bottom : '0px'}}>
+      <div className="home_content" style={{ bottom: "0px" }}>
         <div className="home_title">about us</div>
       </div>
     </div>
 
     {/* <!-- Intro --> */}
 
-    <div className="intro" style={{padding:'10px'}}>
+    <div className="intro intro_no_margin" style={{ padding: "10px" }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
-            <div className="intro_image">
+            <div
+              className="intro_image intro_image_hide"
+              style={{ clear: "both" }}
+            >
               <img src={require("../images/28.jpeg")} alt="" />
             </div>
           </div>
           <div className="col-lg-5">
             <div className="intro_content">
               <div className="intro_title">Saanwariya Hospitality</div>
-              <p className="intro_text" style={{margin:'0'}}>
+              <p className="intro_text" style={{ margin: "0" }}>
                 Saanwariya Hospitality got its name from Saanwariya Sheth Temple
                 in Rajasthan, dedicated to Lord Shri Krishna, under whose
                 blessings Saanwariya Hospitality came into being. We first
@@ -58,7 +61,7 @@ const about = () => (
 
     {/* <!-- Add --> */}
 
-    <div className="add" style={{marginTop:'3em'}}>
+    <div className="add intro_image_hide" style={{ marginTop: "3em" }}>
       <div className="container">
         <div className="row">
           <div className="col">
@@ -76,8 +79,7 @@ const about = () => (
                 </div>
                 <div className="button add_button">
                   <div className="button_bcg" />
-                  <a href="#">
-                  </a>
+                  <a href="#" />
                 </div>
               </div>
             </div>
@@ -150,56 +152,3 @@ const about = () => (
 
 export default about;
 
-{
-  /*  
-              <p className="intro_text">
-                Under the super shade of <b>Saanwariya(कृषण) </b>, there is no
-                such things as stranger. You are and will always be welcome.{" "}
-                <br />
-                At Saanwariya Hospitality we dont treat like guests, we make you
-                feel part of the family. <br />
-                India perceives world as <b> "वसुधैव कुटुमबकं" </b>
-                and treats guests as <b>God "अतिथी देवो भवः"</b>. We have
-                imbibed this in our attitude. We have blended ancient and
-                mordern indian values in a right way. <br />
-                So hereyou will experience the previlage ofbeing treated as
-                royals and at the same time enjoy you privacy and have your 'me
-                -time'. <br />
-                <br />
-                Saanwariya Hospitality hails-
-                <br />
-                <div>
-                  <i className="fa fa-star" />
-                  Service &nbsp;&nbsp;
-                  <i className="fa fa-star" />
-                  Adaptable&nbsp;&nbsp;
-                  <i className="fa fa-star" />
-                  Adventurous&nbsp;&nbsp;
-                  <i className="fa fa-star" />
-                  Well connected
-                  <br />
-                  <i className="fa fa-star" />
-                  Amiable&nbsp;&nbsp;
-                  <i className="fa fa-star" />
-                  Refreshing&nbsp;&nbsp;
-                  <i className="fa fa-star" />
-                  Innovative&nbsp;&nbsp;
-                  <i className="fa fa-star" />
-                  Anxious to welcome you !
-                </div>
-                Let us have the honor to host you. <br />
-                We at kutch Resort dont make you mere viewers of the landscapes,
-                but make you experience the soul of kachchh. <br />
-                Your Morning tea will be served with the crisp attitude of{" "}
-                <b>कचछीमाडु</b> and your Evening will be as soothing and
-                welcoming as White Rann on full moon night and your Night will
-                be enlightened with trendy and hips music of kachchhi gujarati
-                folk lore. You will be enchanted by the vibrant colors of
-                kachchh.
-                <br /> So be the part of Saanwariya Hospitality. <br />
-                <br />
-                We amateur as writers, but ace in the art of hospitality. And it
-                not something to be said, but to be experienced.
-              </p>
-             */
-}

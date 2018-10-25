@@ -29,6 +29,10 @@
     margin-top: 15em;
     padding-bottom: 5em;
   }
+
+  .intro_no_margin{
+    margin: 0;
+  }
   .intro_items {
     margin-top: 2em;
   }
@@ -230,7 +234,6 @@
   }
 }
 
-
 /* till 576px */
 @media only screen and (max-width: 576px) {
   /*Home screen*/
@@ -238,7 +241,21 @@
     width: 100%;
   }
   .home {
-    width: "100%";
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+  }
+
+  .home_375 {
+    height: 375px;
+    object-fit: contain;
+  }
+
+  .home_title {
+    font-size: 3em;
+    width: 5em;
+    margin: 2em auto;
+    
   }
   .home_slider_container {
     height: 80%;
@@ -257,6 +274,10 @@
   .intro_title {
     line-height: 0.7;
     font-size: 3em;
+    padding: 0.2em;
+  }
+  .intro_image_hide {
+    display: none;
   }
   .marginTopSpace {
     margin-top: 0.5em;
@@ -453,5 +474,12 @@
   .footer_about_text {
     font-size: 13px;
   }
+  .offers_price{
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  .offers_text{
+    line-height: 1.5;
+    margin-top: 4em;
+  }
 }
-

@@ -1128,6 +1128,7 @@ section {
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
 .intro_center {
 }
 .intro_center h1 {
@@ -1390,6 +1391,7 @@ section {
   padding-left: 22px;
 }
 .offers_content {
+  
 }
 .offers_price {
   display: inline-block;
@@ -2225,6 +2227,7 @@ section {
   font-weight: 600;
   color: #929191;
   margin-top: 60px;
+  text-align: justify;
 }
 .intro_button {
   margin-top: 57px;
@@ -2625,9 +2628,10 @@ section {
 .offers_price {
   display: inline-block;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 400;
   color: #eda84a;
   line-height: 25px;
+  text-transform: uppercase;
 }
 .offers_price span {
   font-size: 14px;

@@ -4,7 +4,7 @@ import "../styles/responsive.css";
 
 const aboutkutch = () => (
   <div>
-    <div className="home">
+    <div className="home home_375" >
       <div className="home_background parallax-window" data-parallax="scroll">
         <img src={require("../images/8.jpeg")} alt="" />
       </div>
@@ -13,11 +13,11 @@ const aboutkutch = () => (
       </div>
     </div>
 
-    <div className="intro" style={{paddingTop:'10px'}}>
+    <div className="intro intro_no_margin" style={{paddingTop:'10px'}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
-            <div className="intro_image" style={{ padding: "10px" }}>
+            <div className="intro_image intro_image_hide" style={{ padding: "10px" }}>
               <img src={require("../images/30.jpeg")} alt="" />
             </div>
           </div>
@@ -61,13 +61,13 @@ const aboutkutch = () => (
       </div>
     </div>
 
-    <div className="add">
+    <div className="add intro_image_hide">
       <div className="container">
         <div className="row">
           <div className="col">
             <div className="add_container" style={{ marginBottom: "20px" }}>
               <div
-                className="add_background"
+                className="add_background "
                 style={{
                   backgroundImage: `url(${require("../images/29.jpeg")})`
                 }}
@@ -92,33 +92,3 @@ const aboutkutch = () => (
 
 export default aboutkutch;
 
-{
-  /* <p className="intro_text">
-                Kutch literally means something which intermittently becomes wet
-                and dry; a large part of this district is known as Rann of Kutch
-                which is shallow wetland which submerges in water during the
-                rainy season and becomes dry during other seasons. The same word
-                is also used in Sanskrit origin for a tortoise. The Rann is
-                famous for its marshy salt flats which become snow white after
-                the shallow water dries up each season before the monsoon rains.{" "}
-                <br />
-                <br />
-                The district is also famous for ecologically important Banni
-                grasslands with their seasonal marshy wetlands which form the
-                outer belt of the Rann of Kutch.
-                <br />
-                Kutch District is surrounded by the Gulf of Kutch and the
-                Arabian Sea in south and west, while northern and eastern parts
-                are surrounded by the Great and Little Rann (seasonal wetlands)
-                of Kutch. When there were not many dams built on its rivers, the
-                Rann of Kutch remained wetlands for a large part of the year.
-                Even today, the region remains wet for a significant part of
-                year. The district had a population of 2,092,379 as of 2011
-                census, of which 30% were urban.[4] Motor vehicles registered in
-                Kutch district have their registration Number starting with
-                GJ-12. The district is well connected by road, rail and air.
-                There are four airports in the district: Naliya, Kandla, Mundra,
-                and Bhuj. Bhuj is well connected with Mumbai airport. Being a
-                border district, Kutch has both an army and an airforce base.
-              </p> */
-}

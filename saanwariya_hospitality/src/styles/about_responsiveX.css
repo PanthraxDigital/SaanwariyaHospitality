@@ -334,20 +334,6 @@
 }
 
 /************
-11. 539px
-************/
-
-@media only screen and (max-width: 539px) {
-}
-
-/************
-12. 480px
-************/
-
-@media only screen and (max-width: 480px) {
-}
-
-/************
 13. 479px
 ************/
 
@@ -361,11 +347,4 @@
   .milestone_counter {
     font-size: 36px;
   }
-}
-
-/************
-14. 400px
-************/
-
-@media only screen and (max-width: 400px) {
 }
