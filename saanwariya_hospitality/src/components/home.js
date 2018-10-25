@@ -34,10 +34,28 @@ class Home extends React.Component {
       speed: 2000,
       autoplaySpeed: 5000,
       cssEase: "linear",
-      arrows: false
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 641,
+          settings: {
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 361,
+          settings: {
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return (
-      <div className="home" style={{marginBottom : "30px"}}>
+      <div className="home">
         {/* <!-- Home Slider --> */}
         <div className="home_slider_container">
           <div className="owl-carousel owl-theme home_slider">

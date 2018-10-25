@@ -1,25 +1,14 @@
 import React from 'react'
 
 const Packages = () => (
-  <div className="intro" style={{marginTop:'15em'}}>
+  <div className="intro" >
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="intro_title text-center" >We have the best packages</h2>
+          <h2 className="intro_title text-center marginTopSpace" >We have the best packages</h2>
         </div>
       </div>
-      {/* <div className="row" >
-        <div className="col-lg-10 offset-lg-1">
-          <div className="intro_text text-center" style={{marginTop:'0px'}}>
-            <p>
-              Packages with lots of FREE stuffs will make your Kutch
-              Tour a memorable experience. <br></br>Which you will cherised throghout your
-              life.{' '}
-            </p>
-          </div>
-        </div>
-      </div> */}
-      <div className="row intro_items" style={{margin:'1em'}}>
+      <div className="row intro_items" >
         {/* <!-- Intro Item --> */}
         <div className="col-lg-4 intro_col">
           <div className="intro_item">

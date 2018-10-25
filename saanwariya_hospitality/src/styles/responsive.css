@@ -207,8 +207,8 @@
     margin-bottom: 0px;
   }
   .copyright {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
   }
   .copyright_content {
     height: auto;
@@ -285,6 +285,7 @@
   .logo a {
     font-size: 24px;
   }
+
   .home_slider_nav {
     display: none !important;
   }
@@ -424,7 +425,7 @@
     height: calc((100vw - 30px) / 0.974);
   }
   .trending_item {
-    margin-bottom: 30px;
+    margin-bottom: 0.5em;
   }
   .contact_title {
     font-size: 24px;
@@ -476,6 +477,12 @@
   .intro_text p {
     font-size: 16px;
   }
+
+  /*Contact*/
+  .contact_form_container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 /************
@@ -487,7 +494,6 @@
     color: black;
     margin-top: 75px;
   }
-  
 }
 
 @media only screen and (max-width: 641px) {
@@ -496,8 +502,40 @@
   }
 }
 
+/* 320px */
 @media only screen and (max-width: 361px) {
   .slick-slide img {
     width: 100%;
+    margin-top: 20%;
+  }
+  .home {
+    width: "100%";
+  }
+  .home_slider_container {
+    height: 80%;
+  }
+  .home_slider_item {
+    height: 28em;
+  }
+  .offers_col {
+    margin: 0 auto;
+  }
+  .intro {
+    padding-bottom: 3em;
+    margin-top: -20%;
+    padding-top: 0em;
+  }
+  .intro_title {
+    line-height: 0.7;
+    font-size: 3em;    
+  }
+  .marginTopSpace{
+    margin-top: 0.5em;
+  }
+  .intro_items {
+    margin-top: 1em;
+  }
+  .copyright {
+    padding-bottom: 10px;
   }
 }

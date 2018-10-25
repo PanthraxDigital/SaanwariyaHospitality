@@ -4,7 +4,7 @@ import "../styles/responsive.css";
 import { Link } from "react-router-dom";
 
 const contact = () => (
-  <div>
+  <React.Fragment>
     <div className="home">
       <div className="home_background parallax-window" data-parallax="scroll" />
       <img src={require("../images/33.jpeg")} />
@@ -39,7 +39,7 @@ const contact = () => (
                   placeholder="E-mail"
                   required="required"
                   data-error="Email is required."
-                  style={{marginBottom : '20px'}}
+                  style={{ marginBottom: "20px" }}
                 />
                 <input
                   type="text"
@@ -128,9 +128,7 @@ const contact = () => (
               </ul>
               <br />
               <br />
-              <div>
-                
-              </div>
+              <div />
             </div>
           </div>
 
@@ -184,7 +182,7 @@ const contact = () => (
         </div>
       </div>
     </div>
-  </div>
+  </React.Fragment>
 );
 
 export default contact;

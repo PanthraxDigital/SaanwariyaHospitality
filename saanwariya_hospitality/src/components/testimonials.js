@@ -16,6 +16,7 @@ class Testimonial extends React.Component {
       speed: 500,
       infinite: true,
       slidesToShow: 3,
+      arrows : false,
       slidesToScroll: 1,
       responsive: [
         {
@@ -44,7 +45,7 @@ class Testimonial extends React.Component {
           <div className="row">
             <div className="col text-center">
               <h2 className="intro_title text-center">
-                What our visitors says about us
+                Happy Visitors
               </h2>
             </div>
           </div>

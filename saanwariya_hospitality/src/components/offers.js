@@ -8,12 +8,6 @@ const Offers = () => (
       <div className="row">
         <div className="col text-center">
           <h2 className="intro_title text-center">Rooms with great ambience</h2>
-          {/* <div className="intro_text text-center" style={{ marginTop: "0px" }}>
-            <p>
-              Feel the extreme level of satisfaction with our artisitically
-              designed rooms
-            </p>
-          </div> */}
         </div>
       </div>
       <div className="row offers_items">
@@ -72,7 +66,7 @@ const Offers = () => (
                   </div>
 
                   <div className="offers_link">
-                    <a href="#">read more</a>
+                    <a href="#"></a>
                   </div>
                 </div>
               </div>
@@ -134,7 +128,7 @@ const Offers = () => (
                     </ul>
                   </div>
                   <div className="offers_link">
-                    <a href="#">read more</a>
+                    <a href="#"></a>
                   </div>
                 </div>
               </div>
