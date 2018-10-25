@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const contact = () => (
   <React.Fragment>
-    <div className="home">
+    <div className="home home_375">
       <div className="home_background parallax-window" data-parallax="scroll" />
       <img src={require("../images/33.jpeg")} />
       <div className="home_content">
@@ -88,7 +88,7 @@ const contact = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
-            <div className="about_image">
+            <div className="about_image intro_image_hide">
               <img src={require("../images/man.png")} alt="" />
             </div>
           </div>
