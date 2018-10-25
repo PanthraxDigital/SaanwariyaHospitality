@@ -5,6 +5,7 @@ import About from "./aboutus";
 import Aboutkutch from "./aboutkutch";
 import Gallery from "../components/gallery";
 import Contact from "./contact";
+import Places from "./places";
 
 // const HeaderRoute = () => (
 class MainRoute extends React.Component {
@@ -15,6 +16,7 @@ class MainRoute extends React.Component {
         <Route path="/aboutkutch" component={Aboutkutch} />
         <Route path="/contact" component={Contact} />
         <Route path="/gallery" component={Gallery} />
+        <Route path="/places" component={Places} />
         <Route path="/" component={Body} />
       </Switch>
     );
