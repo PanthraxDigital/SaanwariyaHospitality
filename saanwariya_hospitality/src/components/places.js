@@ -39,8 +39,8 @@ class Places extends React.Component {
                         </div>
                         <div className="col-lg-9">
                           <div className="offers_content">
-                            <div class="row">
-                              <div class="col-sm-8">
+                            <div className="row">
+                              <div className="col-sm-8">
                                 <div className="offers_price">{data.title}</div>
                                 <div
                                   className="rating_r rating_r_4 offers_rating"
@@ -53,7 +53,7 @@ class Places extends React.Component {
                                   <i />
                                 </div>
                               </div>
-                              <div class="col-sm-4">
+                              <div className="col-sm-4">
                                 <div className="offer_reviews">
                                   <div className="offer_reviews_content">
                                     <div className="offer_reviews_title">

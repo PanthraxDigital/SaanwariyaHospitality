@@ -24,7 +24,7 @@ class BookNow extends React.Component {
       padding: "1em",
       fontSize: "18px",
       color: "white",
-      zIndex: 100,
+      zIndex: 10,
       cursor: "pointer"
     };
     return (

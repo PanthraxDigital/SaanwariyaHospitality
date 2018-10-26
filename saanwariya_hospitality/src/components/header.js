@@ -8,10 +8,17 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showTopNav: true
+      showTopNav: true,
+      showMenu: false
     };
     this.scrollTop = this.scrollTop.bind(this);
     window.addEventListener("scroll", this.scrollTop);
+    this.menuClick = this.menuClick.bind(this);
+  }
+  menuClick(e) {
+    this.setState({
+      showMenu: !this.state.showMenu
+    });
   }
 
   scrollTop(e) {
@@ -30,7 +37,6 @@ class Header extends React.Component {
     return (
       <div>
         {/* <!-- Header --> */}
-
         <header className="header">
           {this.state.showTopNav ? (
             <div className="top_bar">
@@ -94,14 +100,10 @@ class Header extends React.Component {
                         <Link to="/aboutkutch">Rann Utsav</Link>
                       </li>
                       <li className="main_nav_item">
-                      <Link to="/places">
-                          Places to Visit
-                        </Link>
+                        <Link to="/places">Places to Visit</Link>
                       </li>
                       <li className="main_nav_item">
-                      <Link to="/gallery">
-                          Gallery
-                        </Link>
+                        <Link to="/gallery">Gallery</Link>
                       </li>
                       <li className="main_nav_item">
                         <Link to="/contact">contact</Link>
@@ -118,7 +120,11 @@ class Header extends React.Component {
                     />
                   </form>
 
-                  <div className="hamburger" style={{ float: "right" }}>
+                  <div
+                    className="hamburger"
+                    style={{ float: "right" }}
+                    onClick={this.menuClick}
+                  >
                     <i className="fa fa-bars trans_200" />
                   </div>
                 </div>
@@ -127,33 +133,50 @@ class Header extends React.Component {
           </nav>
         </header>
 
-        <div className="menu trans_500">
-          <div className="menu_content d-flex flex-column align-items-center justify-content-center text-center">
-            <div className="menu_close_container">
-              <div className="menu_close" />
+        {this.state.showMenu ? (
+          <div className="menu trans_500 active">
+            <div className="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+              <div className="menu_close_container">
+                <div className="menu_close" onClick={this.menuClick} />
+              </div>
+              <div className="logo menu_logo">
+                <a href="#">{/* <img src="images/logo.png" alt="" /> */}</a>
+              </div>
+              <ul>
+                <li className="menu_item">
+                  <Link to="/" onClick={this.menuClick}>
+                    home
+                  </Link>
+                </li>
+                <li className="menu_item">
+                  <Link to="/aboutus" onClick={this.menuClick}>
+                    about us
+                  </Link>
+                </li>
+                <li className="menu_item">
+                  <Link to="/aboutkutch" onClick={this.menuClick}>
+                    Rann Utsav
+                  </Link>
+                </li>
+                <li className="menu_item">
+                  <Link to="/places" onClick={this.menuClick}>
+                    Places to Visit
+                  </Link>
+                </li>
+                <li className="menu_item">
+                  <Link to="/gallery" onClick={this.menuClick}>
+                    Gallery
+                  </Link>
+                </li>
+                <li className="menu_item">
+                  <Link to="/contact" onClick={this.menuClick}>
+                    contact
+                  </Link>
+                </li>
+              </ul>
             </div>
-            <div className="logo menu_logo">
-              <a href="#">{/* <img src="images/logo.png" alt="" /> */}</a>
-            </div>
-            <ul>
-              <li className="menu_item">
-                <a href="#">home</a>
-              </li>
-              <li className="menu_item">
-                <a href="about.html">about us</a>
-              </li>
-              <li className="menu_item">
-                <a href="offers.html">offers</a>
-              </li>
-              <li className="menu_item">
-                <a href="blog.html">news</a>
-              </li>
-              <li className="menu_item">
-                <a href="contact.html">contact</a>
-              </li>
-            </ul>
           </div>
-        </div>
+        ) : null}
       </div>
     );
   }

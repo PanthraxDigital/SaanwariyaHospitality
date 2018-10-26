@@ -527,6 +527,7 @@ section {
   top: 105px;
   visibility: visible;
   opacity: 1;
+  z-index: 105;
 }
 .search_content_input {
   width: 100%;
