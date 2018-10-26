@@ -254,8 +254,9 @@
 
   .home_title {
     font-size: 3em;
-    width: 5em;
-    margin: 2em auto;
+    width: 7em;
+    margin: 3em auto;
+    text-align: center;
   }
   .home_slider_container {
     height: 80%;
@@ -505,5 +506,12 @@
   .offers_grid{
     margin-top: 2em;
     margin-left: 0.7em;
+  }
+  .contact_form_section{
+    margin-top: -5em;
+  }
+
+  .about_content{
+    padding-top: 3em;
   }
 }
