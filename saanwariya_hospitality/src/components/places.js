@@ -1,6 +1,7 @@
 import React from "react";
 import placesList from "../content/ListOfVisitPlaces.json";
 import { Link } from "react-router-dom";
+import { width } from "window-size";
 
 class Places extends React.Component {
   render() {
@@ -27,12 +28,13 @@ class Places extends React.Component {
                   <div className="offers_grid">
                     <div className="offers_item rating_4">
                       <div className="row">
-                        <div className="col-lg-3 col-1680-4">
+                        <div className="col-lg-3">
                           <div className="offers_image_container">
                             <div
                               className="offers_image_background"
                               style={{
-                                backgroundImage: `url(${data.imageUrl})`
+                                backgroundImage: `url(${data.imageUrl})`,
+                                
                               }}
                             />
                           </div>
@@ -72,7 +74,7 @@ class Places extends React.Component {
                             <p className="offers_text">{data.subtitle}</p>
                             <div
                               className="offers_icons"
-                              style={{ display:'none' }}
+                              style={{ display: "none" }}
                             >
                               <ul className="offers_icons_list">
                                 <li className="offers_icons_item">
@@ -89,7 +91,10 @@ class Places extends React.Component {
                                 </li>
                               </ul>
                             </div>
-                            <div className="button book_button">
+                            <div
+                              className="button book_button"
+                              style={{ display: "none" }}
+                            >
                               <Link to={data.link}>
                                 Explore
                                 <span />
@@ -101,6 +106,7 @@ class Places extends React.Component {
                         </div>
                       </div>
                     </div>
+                  <div style={{height:'0.5em'}}></div>
                   </div>
                 ))}
               </div>

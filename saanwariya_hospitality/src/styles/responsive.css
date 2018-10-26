@@ -452,7 +452,7 @@
     font-size: 12px;
   }
   .offers_image_container {
-    height: calc((100vw - 30px) / 0.974);
+    height: 10em;
   }
   .trending_item {
     margin-bottom: 0.5em;
@@ -500,5 +500,10 @@
 
   .gallaryMarginTop {
     height: 8em;
+  }
+
+  .offers_grid{
+    margin-top: 2em;
+    margin-left: 0.7em;
   }
 }
