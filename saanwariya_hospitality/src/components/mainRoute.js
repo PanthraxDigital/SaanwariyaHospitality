@@ -14,9 +14,9 @@ class MainRoute extends React.Component {
       <Switch>
         <Route path="/aboutus" component={About} />
         <Route path="/aboutkutch" component={Aboutkutch} />
-        <Route path="/contact" component={Contact} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/places" component={Places} />
+        <Route path="/contact" component={Contact} />
         <Route path="/" component={Body} />
       </Switch>
     );

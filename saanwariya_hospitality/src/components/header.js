@@ -94,14 +94,14 @@ class Header extends React.Component {
                         <Link to="/aboutkutch">Rann Utsav</Link>
                       </li>
                       <li className="main_nav_item">
-                        <a href="/places">
+                      <Link to="/places">
                           Places to Visit
-                        </a>
+                        </Link>
                       </li>
                       <li className="main_nav_item">
-                        <a href="/gallery">
+                      <Link to="/gallery">
                           Gallery
-                        </a>
+                        </Link>
                       </li>
                       <li className="main_nav_item">
                         <Link to="/contact">contact</Link>
