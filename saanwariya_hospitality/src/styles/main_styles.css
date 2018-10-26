@@ -2752,3 +2752,16 @@ section {
   float: right;
   height: 2em;
 }
+
+.fixedBN {
+  background-color: black;
+  position: fixed;
+  top: 50%;
+  padding: 1em;
+  font-size: 18px;
+  color: white;
+  z-index: 20;
+  font-style: bold;
+  font-size: 16px;
+  cursor: pointer;
+}

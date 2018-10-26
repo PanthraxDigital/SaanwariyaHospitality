@@ -1,5 +1,7 @@
 import React from "react";
 import Search from "../components/search";
+import "../styles/main_styles.css";
+import "../styles/responsive.css";
 
 class BookNow extends React.Component {
   constructor(props) {
@@ -17,16 +19,6 @@ class BookNow extends React.Component {
   }
 
   render() {
-    const fixedBN = {
-      backgroundColor: "black",
-      position: "fixed",
-      top: "50%",
-      padding: "1em",
-      fontSize: "18px",
-      color: "white",
-      zIndex: 10,
-      cursor: "pointer"
-    };
     return (
       <div>
         {this.state.showBooNow ? (
@@ -34,10 +26,8 @@ class BookNow extends React.Component {
             <Search hideBookNow={this.showBooNowFn} />
           </div>
         ) : (
-          <div>
-            <span onClick={this.showBooNowFn} style={fixedBN}>
-              Book Now
-            </span>
+          <div className="fixedBN">
+            <span onClick={this.showBooNowFn}>Book Now</span>
           </div>
         )}
       </div>
