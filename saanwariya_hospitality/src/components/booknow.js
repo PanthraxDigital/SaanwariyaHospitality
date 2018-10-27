@@ -26,8 +26,8 @@ class BookNow extends React.Component {
             <Search hideBookNow={this.showBooNowFn} />
           </div>
         ) : (
-          <div className="fixedBN">
-            <span onClick={this.showBooNowFn}>Book Now</span>
+          <div className="fixedBN" onClick={this.showBooNowFn}>
+            <span >Book Now</span>
           </div>
         )}
       </div>

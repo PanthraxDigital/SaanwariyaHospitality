@@ -11,7 +11,7 @@ const about = () => (
         <img src={require("../images/6.jpeg")} alt="" />
       </div>
       <div className="home_content" style={{ bottom: "0px" }}>
-        <div className="home_title">about us</div>
+        <div className="home_title" >about us</div>
       </div>
     </div>
 

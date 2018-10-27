@@ -12,7 +12,6 @@ class Body extends React.Component {
       <div>
         <Home />
         
-
         {/* <!-- Intro Component--> */}
         <Packages />
 

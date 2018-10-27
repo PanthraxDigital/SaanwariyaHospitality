@@ -7,6 +7,13 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
 class Home extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.prevClick = this.prevClick.bind(this);
+    this.nextClick = this.nextClick.bind(this);
+  }
+
   componentDidMount() {
     const script = document.createElement("script");
     const scriptText = document.createTextNode(`
@@ -24,6 +31,13 @@ class Home extends React.Component {
     document.head.appendChild(script);
   }
 
+  prevClick(e) {
+    this.slider.slickPrev();
+  }
+
+  nextClick(e) {
+    this.slider.slickNext();
+  }
   render() {
     var settings = {
       dots: true,
@@ -32,6 +46,7 @@ class Home extends React.Component {
       slidesToScroll: 1,
       autoplay: true,
       speed: 2000,
+      swipeToSlide:true,
       autoplaySpeed: 5000,
       cssEase: "linear",
       arrows: false,
@@ -61,7 +76,7 @@ class Home extends React.Component {
           <div className="owl-carousel owl-theme home_slider">
             {/* <!-- Slider Item Component--> */}
             <div className="home_slider_item">
-              <Slider {...settings}>
+              <Slider  ref={c => (this.slider = c)} {...settings}>
                 <div>
                   <img src={require("../images/1.jpeg")} />
                 </div>
@@ -81,23 +96,33 @@ class Home extends React.Component {
                   <img src={require("../images/7.jpeg")} />
                 </div>
               </Slider>
-              {/* <div
-                className="home_slider_background"
-                style={{
-                  backgroundImage: `url(${require("../images/dessert_1.jpg")})`
-                }}
-              /> */}
 
               <div className="home_slider_content text-center">
                 <div className="home_slider_content_inner">
                   <h1>discover</h1>
-                  <h1>the Kutch</h1>
+                  <h1>the Rann of Kutch</h1>
 
                   <div className="button home_slider_button">
                     <div className="button_bcg" />
                     <a href="#">with Saanwariya Hospitality</a>
                   </div>
                 </div>
+              </div>
+
+              {/* <!-- Home Slider Nav - Prev --> */}
+              <div
+                class="home_slider_nav home_slider_prev"
+                onClick={this.prevClick}
+              >
+                <img src={require("../images/ic_back.png")} />
+              </div>
+
+              {/* <!-- Home Slider Nav - Next --> */}
+              <div
+                class="home_slider_nav home_slider_next"
+                onClick={this.nextClick}
+              >
+                <img src={require("../images/ic_next.png")} />
               </div>
             </div>
           </div>
