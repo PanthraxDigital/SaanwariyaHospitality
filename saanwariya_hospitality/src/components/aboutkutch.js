@@ -23,7 +23,7 @@ const aboutkutch = () => (
           </div>
           <div className="col-lg-5">
             <div className="intro_content">
-              <div className="intro_title">Experience the Rann of Kutch</div>
+              <div className="intro_title">Experience it</div>
               <p className="intro_text" style={{marginTop:'0px'}}>
                 Rann of Kutch is a vast ocean of cultural beauty. The
                 spectacular sight of the boundless white desert under the
