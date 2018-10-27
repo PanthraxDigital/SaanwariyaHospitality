@@ -493,7 +493,7 @@
     padding: 10px;
   }
   .closeBookNow {
-    top: 90%;
+    margin-top: 0em;
   }
   .fixedBN {
     top: 87%;

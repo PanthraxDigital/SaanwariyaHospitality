@@ -10,6 +10,9 @@ class Search extends React.Component {
       <div className="modal">
         <div className="search modal-content">
           <div className="container fill_height">
+            <span className="closeBookNow" onClick={this.props.hideBookNow}>
+              close
+            </span>
             <div className="search_panel active">
               <form
                 action="#"
@@ -73,9 +76,6 @@ class Search extends React.Component {
                   <span />
                 </button>
               </form>
-              <span className="closeBookNow" onClick={this.props.hideBookNow}>
-                close
-              </span>
             </div>
           </div>
         </div>
