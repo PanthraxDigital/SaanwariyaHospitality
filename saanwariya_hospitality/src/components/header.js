@@ -145,12 +145,12 @@ class Header extends React.Component {
               <ul>
                 <li className="menu_item">
                   <Link to="/" onClick={this.menuClick}>
-                    home
+                    Home
                   </Link>
                 </li>
                 <li className="menu_item">
                   <Link to="/aboutus" onClick={this.menuClick}>
-                    about us
+                    About us
                   </Link>
                 </li>
                 <li className="menu_item">
@@ -170,7 +170,7 @@ class Header extends React.Component {
                 </li>
                 <li className="menu_item">
                   <Link to="/contact" onClick={this.menuClick}>
-                    contact
+                    Contact
                   </Link>
                 </li>
               </ul>

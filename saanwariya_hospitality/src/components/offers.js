@@ -36,7 +36,7 @@ const Offers = () => (
                   </div>
                   <p className="offers_text">
                     The price is for twin sharing basis and including all meals.
-                    Get the feel of staying traditional mud houses with latest
+                    Get the feel of staying in traditional mud houses with latest
                     facilities
                   </p>
                   <div className="offers_icons">
@@ -56,12 +56,7 @@ const Offers = () => (
                           alt=""
                         />
                       </li>
-                      <li className="offers_icons_item">
-                        <img
-                          src={`${require("../images/sailboat.png")}`}
-                          alt=""
-                        />
-                      </li>
+                      
                     </ul>
                   </div>
 
@@ -119,12 +114,7 @@ const Offers = () => (
                           alt=""
                         />
                       </li>
-                      <li className="offers_icons_item">
-                        <img
-                          src={`${require("../images/sailboat.png")}`}
-                          alt=""
-                        />
-                      </li>
+                      
                     </ul>
                   </div>
                   <div className="offers_link">

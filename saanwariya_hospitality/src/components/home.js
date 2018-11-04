@@ -46,7 +46,7 @@ class Home extends React.Component {
       slidesToScroll: 1,
       autoplay: true,
       speed: 2000,
-      swipeToSlide:true,
+      swipeToSlide: true,
       autoplaySpeed: 5000,
       cssEase: "linear",
       arrows: false,
@@ -76,25 +76,25 @@ class Home extends React.Component {
           <div className="owl-carousel owl-theme home_slider">
             {/* <!-- Slider Item Component--> */}
             <div className="home_slider_item">
-              <Slider  ref={c => (this.slider = c)} {...settings}>
+              <Slider ref={c => (this.slider = c)} {...settings}>
                 <div>
-                  <img src={require("../images/1.jpeg")} />
+                  <img src="https://farm2.staticflickr.com/1980/30707859247_2405765fd6_o.jpg" />
                 </div>
                 <div>
-                  <img src={require("../images/2.jpeg")} />
+                  <img src="https://farm2.staticflickr.com/1947/44734470345_2ff2f4dcae_o.jpg" />
                 </div>
                 <div>
-                  <img src={require("../images/3.jpeg")} />
+                  <img src="https://farm2.staticflickr.com/1908/30707858577_dcff5acc2b_b.jpg" />
                 </div>
                 <div>
-                  <img src={require("../images/4.jpeg")} />
+                  <img src="https://farm2.staticflickr.com/1977/30707858157_60c5d2b64a_o.jpg" />
                 </div>
-                <div>
+                {/*<div>
                   <img src={require("../images/5.jpeg")} />
                 </div>
                 <div>
                   <img src={require("../images/7.jpeg")} />
-                </div>
+                </div> */}
               </Slider>
 
               <div className="home_slider_content text-center">

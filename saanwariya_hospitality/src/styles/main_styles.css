@@ -1056,7 +1056,7 @@ section {
 
 .intro {
   width: 100%;
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 105px;
 }
 .intro_title {
@@ -1593,7 +1593,7 @@ section {
 
 .trending {
   width: 100%;
-  padding-top: 1em;
+  padding-top: 3em;
   padding-bottom: 1em;
 }
 .trending_container {
@@ -2770,4 +2770,11 @@ section {
 
 .gallaryMarginTop {
   height: 12em;
+}
+.slick-slide {
+  height:40em;
+}
+
+.slick-slide img {
+  height:40em;
 }
