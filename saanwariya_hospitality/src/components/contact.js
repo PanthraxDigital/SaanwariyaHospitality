@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/main_styles.css";
 import "../styles/responsive.css";
-import { Link } from "react-router-dom";
 
 class contact extends React.Component {
   render() {
