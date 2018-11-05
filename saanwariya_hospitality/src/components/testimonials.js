@@ -59,13 +59,7 @@ class Testimonial extends React.Component {
                       <div key={index}>
                         <div className="test_item" >
                           <div className="test_image">
-                            <img src={require("../images/103.jpeg")} />
-                          </div>
-                          <div className="test_icon">
-                            <img
-                              src={require("../images/backpack.png")}
-                              alt=""
-                            />
+                            <img src={`${data.profileImage}`} style={{height:'13em'}}/>
                           </div>
                           <div className="test_content_container">
                             <div className="test_content">

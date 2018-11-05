@@ -4,6 +4,7 @@ import Slider from 'react-slick'
 import '../styles/main_styles.css'
 import '../styles/responsive.css'
 import '../styles/bootstrap4/bootstrap.min.css'
+import { Link } from "react-router-dom";
 
 export default ({ data }) => {
   if (data != undefined) {

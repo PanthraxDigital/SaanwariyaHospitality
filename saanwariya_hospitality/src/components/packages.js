@@ -87,7 +87,6 @@ const Packages = () => (
         <div className="col-lg-4 intro_col">
           <div className="intro_item">
             <div className="intro_item_overlay" />
-            {/* <!-- Image by https://unsplash.com/@willianjusten --> */}
             <div
               className="intro_item_background"
               style={{ backgroundImage: `url(${require('../images/3.jpeg')})` }}

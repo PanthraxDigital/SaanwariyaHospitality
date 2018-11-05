@@ -2609,7 +2609,7 @@ section {
   top: 0;
   left: 0;
   width: 95%;
-  height: 12em;
+  height: 18em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2776,5 +2776,9 @@ section {
 }
 
 .slick-slide img {
-  height:40em;
+  height:45em;
 }
+.test_image{
+  height: 13em;
+}
+
