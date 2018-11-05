@@ -81,7 +81,7 @@ class Home extends React.Component {
                 <div>
                   <img src="https://farm2.staticflickr.com/1980/30707859247_2405765fd6_o.jpg" />
                 </div>
-                <div>
+                {/* <div>
                   <img src="https://farm2.staticflickr.com/1947/44734470345_2ff2f4dcae_o.jpg" />
                 </div>
                 <div>
@@ -89,15 +89,8 @@ class Home extends React.Component {
                 </div>
                 <div>
                   <img src="https://farm2.staticflickr.com/1977/30707858157_60c5d2b64a_o.jpg" />
-                </div>
-                {/*<div>
-                  <img src={require("../images/5.jpeg")} />
-                </div>
-                <div>
-                  <img src={require("../images/7.jpeg")} />
                 </div> */}
               </Slider>
-
               <div className="home_slider_content text-center">
                 <div className="home_slider_content_inner">
                   <h1>discover</h1>

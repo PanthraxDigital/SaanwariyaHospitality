@@ -43,15 +43,11 @@ class Testimonial extends React.Component {
         <div className="test_border" />
         <div className="container">
           <div className="row">
-            <div className="col text-center">
-              <h2 className="intro_title text-center">
+            <div className="col">
+            <h2 className="intro_title text-center">
                 Happy Visitors
               </h2>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col">
+            
               <div className="test_slider_container">
                 <div className="owl-carousel owl-theme test_slider">
                   <Slider {...settings}>
