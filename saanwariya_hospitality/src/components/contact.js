@@ -7,12 +7,8 @@ const contact = () => (
   <React.Fragment>
     <div className="home home_375">
       <div className="home_background parallax-window" data-parallax="scroll" />
-      <img src={require("../images/33.jpeg")} />
-      <div className="home_content">
-        <div className="home_title">contact</div>
-      </div>
+      <img src="https://farm5.staticflickr.com/4850/31854247868_b05ab86443_o.jpg" />
     </div>
-
     <div className="contact_form_section">
       <div className="container">
         <div className="row">
@@ -89,7 +85,10 @@ const contact = () => (
         <div className="row">
           <div className="col-lg-5">
             <div className="about_image intro_image_hide">
-              <img src={require("../images/man.png")} alt="" />
+              <img
+                src="https://farm5.staticflickr.com/4898/30785540977_c9f2702a11_o.png"
+                alt=""
+              />
             </div>
           </div>
 

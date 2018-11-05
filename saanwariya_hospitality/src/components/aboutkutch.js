@@ -4,27 +4,22 @@ import "../styles/responsive.css";
 
 const aboutkutch = () => (
   <div>
-    <div className="home home_375" >
+    <div className="home home_375">
       <div className="home_background parallax-window" data-parallax="scroll">
-        <img src={require("../images/8.jpeg")} alt="" />
-      </div>
-      <div className="home_content">
-        <div className="home_title">Rann of Kutch</div>
+        <img
+          src="https://farm5.staticflickr.com/4820/43907799350_00008d8e93_h.jpg"
+          alt=""
+        />
       </div>
     </div>
 
-    <div className="intro intro_no_margin" style={{paddingTop:'10px'}}>
+    <div className="intro intro_no_margin" style={{ paddingTop: "10px" }}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-7">
-            <div className="intro_image intro_image_hide" style={{ padding: "10px" }}>
-              <img src={require("../images/30.jpeg")} alt="" />
-            </div>
-          </div>
-          <div className="col-lg-5">
+          <div className="col-lg-12">
             <div className="intro_content">
-              <div className="intro_title">Experience it</div>
-              <p className="intro_text" style={{marginTop:'0px'}}>
+              <div className="intro_title">Experience the Rann of Kutch</div>
+              <p className="intro_text" style={{ marginTop: "0px" }}>
                 Rann of Kutch is a vast ocean of cultural beauty. The
                 spectacular sight of the boundless white desert under the
                 moonlight, presents the stunning creation of nature. It is
@@ -69,7 +64,7 @@ const aboutkutch = () => (
               <div
                 className="add_background "
                 style={{
-                  backgroundImage: `url(${require("../images/29.jpeg")})`
+                  backgroundImage: `url(https://farm5.staticflickr.com/4852/30785055457_fd98fcd19a_b.jpg)`
                 }}
               />
               <div className="add_content">
@@ -79,7 +74,6 @@ const aboutkutch = () => (
                 </div>
                 <div className="button add_button">
                   <div className="button_bcg" />
-                  
                 </div>
               </div>
             </div>
@@ -91,4 +85,3 @@ const aboutkutch = () => (
 );
 
 export default aboutkutch;
-

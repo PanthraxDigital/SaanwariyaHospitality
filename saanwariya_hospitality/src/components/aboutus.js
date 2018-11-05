@@ -8,11 +8,12 @@ const about = () => (
 
     <div className="home home_375">
       <div>
-        <img src={require("../images/6.jpeg")} alt="" />
+        <img
+          src="https://farm2.staticflickr.com/1966/30707857437_a0df186383_o.jpg"
+          alt=""
+        />
       </div>
-      <div className="home_content" style={{ bottom: "0px" }}>
-        <div className="home_title" >about us</div>
-      </div>
+      
     </div>
 
     {/* <!-- Intro --> */}
@@ -20,17 +21,9 @@ const about = () => (
     <div className="intro intro_no_margin" style={{ padding: "10px" }}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-7">
-            <div
-              className="intro_image intro_image_hide"
-              style={{ clear: "both" }}
-            >
-              <img src={require("../images/28.jpeg")} alt="" />
-            </div>
-          </div>
-          <div className="col-lg-5">
+          <div className="col-lg-12">
             <div className="intro_content">
-              <div className="intro_title">Saanwariya Hospitality</div>
+              <div className="intro_title">About Saanwariya Hospitality</div>
               <p className="intro_text" style={{ margin: "0" }}>
                 Saanwariya Hospitality got its name from Saanwariya Sheth Temple
                 in Rajasthan, dedicated to Lord Shri Krishna, under whose
@@ -59,7 +52,7 @@ const about = () => (
       </div>
     </div>
 
-    {/* <!-- Add --> */}
+    {/* <!-- About --> */}
 
     <div className="add intro_image_hide" style={{ marginTop: "3em" }}>
       <div className="container">
@@ -69,7 +62,7 @@ const about = () => (
               <div
                 className="add_background"
                 style={{
-                  backgroundImage: `url(${require("../images/32.jpeg")})`
+                  backgroundImage: `url(https://farm5.staticflickr.com/4836/45675023872_c07bd06c3d_b.jpg)`
                 }}
               />
               <div className="add_content">
@@ -151,4 +144,3 @@ const about = () => (
 );
 
 export default about;
-
