@@ -16,7 +16,7 @@ const Packages = () => (
 
             <div
               className="intro_item_background"
-              style={{ backgroundImage: `url(${require('../images/11.jpeg')})` }}
+              style={{ backgroundImage: `url(https://farm5.staticflickr.com/4898/45727297891_8d3a73e955_n.jpg)` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
               <div className="intro_date">Nov 01st - Mar 01st</div>
@@ -53,7 +53,7 @@ const Packages = () => (
 
             <div
               className="intro_item_background"
-              style={{ backgroundImage: `url(${require('../images/2.jpeg')})` }}
+              style={{ backgroundImage: `url(https://farm5.staticflickr.com/4840/30786857987_2f0ff195ec_n.jpg)` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
               <div className="intro_date">Nov 01st - Mar 01st</div>
@@ -89,7 +89,7 @@ const Packages = () => (
             <div className="intro_item_overlay" />
             <div
               className="intro_item_background"
-              style={{ backgroundImage: `url(${require('../images/3.jpeg')})` }}
+              style={{ backgroundImage: `url(https://farm2.staticflickr.com/1936/43909569110_7d46c805af_n.jpg` }}
             />
             <div className="intro_item_content d-flex flex-column align-items-center justify-content-center">
               <div className="intro_date">Nov 01st - Mar 01st</div>

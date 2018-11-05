@@ -54,6 +54,7 @@ class Gallery extends Component {
   }
 
   render() {
+    window.scrollTo(0, 0);
     const IMAGES = [
       {
         src: "https://farm2.staticflickr.com/1971/31775362338_cbb88dfa03_b.jpg",

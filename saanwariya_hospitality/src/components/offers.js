@@ -24,7 +24,7 @@ const Offers = () => (
                     }}
                   />
                   <div className="offer_name">
-                    <a href="#">AC Cottages</a>
+                    <a href="#">AC Tents</a>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const Offers = () => (
                     }}
                   />
                   <div className="offer_name">
-                    <a href="#">Non AC Cottages</a>
+                    <a href="#">Non AC Tents</a>
                   </div>
                 </div>
               </div>

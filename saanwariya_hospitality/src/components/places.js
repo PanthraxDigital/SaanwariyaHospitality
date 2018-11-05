@@ -5,6 +5,7 @@ import { width } from "window-size";
 
 class Places extends React.Component {
   render() {
+    window.scrollTo(0,0);
     return (
       <div>
         <div className="home">
@@ -37,7 +38,8 @@ class Places extends React.Component {
                             <div
                               className="offers_image_background"
                               style={{
-                                backgroundImage: `url(${data.imageUrl})`
+                                backgroundImage: `url(${data.imageUrl})`,
+                                height:'12em'
                               }}
                             />
                           </div>

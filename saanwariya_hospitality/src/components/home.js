@@ -39,6 +39,7 @@ class Home extends React.Component {
     this.slider.slickNext();
   }
   render() {
+    window.scrollTo(0,0);
     var settings = {
       dots: true,
       infinite: true,
