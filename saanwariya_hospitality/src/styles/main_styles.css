@@ -41,11 +41,10 @@
 ***********/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Qwigley");
 @font-face {
-  font-family: "Beyond";
-  src: url("../fonts/beyond_the_mountains.otf") format("truetype"),
-    url("../fonts//beyond_the_mountains.ttf") format("opentype");
+  font-family: "Qwigley";
+  
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lovers+Quarrel");
@@ -611,7 +610,7 @@ section {
 .menu_item a {
   display: inline-block;
   position: relative;
-  font-family: "Beyond";
+  font-family: "Qwigley";
   font-size: 36px;
   color: #ffffff;
   font-weight: 400;
@@ -744,7 +743,7 @@ section {
   text-transform: uppercase;
 }
 .home_slider_content h1:nth-child(2) {
-  font-family: "Beyond";
+  font-family: "Qwigley";
   font-size: 100px;
   color: #ffffff;
   margin-top: 0px;
@@ -1610,12 +1609,13 @@ section {
 }
 .trending_image img {
   width: 100%;
+  padding: 0.5em;
 }
 .trending_content {
   padding-left: 94px;
 }
 .trending_title {
-  margin-top: -5px;
+  margin-top: 0px;
 }
 .trending_title a {
   font-size: 16px;

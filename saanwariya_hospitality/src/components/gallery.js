@@ -56,195 +56,142 @@ class Gallery extends Component {
   render() {
     const IMAGES = [
       {
-        src: require("../images/1_01.jpg"),
-        thumbnail: require("../images/3_01.jpg"),
-        caption:
-          "The tent section consisting of more than a dozen tents spread over 15000 sq ft, makes it an ideal camping place for small as well as large groups.",
+        src: "https://farm2.staticflickr.com/1971/31775362338_cbb88dfa03_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1958/30774434987_7f7e29cd1e_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_02.jpg"),
-        thumbnail: require("../images/3_02.jpg"),
-        caption:
-          "The open sky dining section which gives us the most beautiful view to behold, the starlit sky",
+        src: "https://farm2.staticflickr.com/1928/45597314672_224f2d13ac_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1927/44800788875_296bb4a1de_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_03.jpg"),
-        thumbnail: require("../images/3_03.jpg"),
-        caption:
-          "The Bhunga or traditional cottage that is unique to the region of Kutch, gives you the authentic desert experience with a thatched roof, yet is loaded with modern amenities at the Kutch Resort to ensure a comfortable and luxurious stay.",
+        src: "https://farm2.staticflickr.com/1938/45597316882_9bd6237a40_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4899/44800789305_5b539d818f_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_04.jpg"),
-        thumbnail: require("../images/3_04.jpg"),
-        caption:
-          "Saanwariya Hospitality's Kutch Resort is spread over 1.75 acres of land, comprising of tent and cottage accomodations for an authentic desert experience, closest to the White Rann or the salt desert which is only 7 kms away.",
+        src: "https://farm2.staticflickr.com/1976/44922849514_2218634bd2_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4846/44800789915_6050db7780_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_05.jpg"),
-        thumbnail: require("../images/3_05.jpg"),
-        caption:
-          "Saanwariya Hospitality's Kutch Resort is spread over 1.75 acres of land, comprising of tent and cottage accomodations for an authentic desert experience, closest to the White Rann or the salt desert which is only 7 kms away.",
+        src: "https://farm2.staticflickr.com/1960/45597321632_6c5fb6cbed_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1978/44800790345_2aea415899_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_06.jpg"),
-        thumbnail: require("../images/3_06.jpg"),
-        caption:
-          "The picturesque beauty of the sunsets viewed from Saanwariya Hospitality's Kutch Resort is every photographer and nature lover's delight!",
+        src: "https://farm2.staticflickr.com/1937/44922854294_d596aef0b7_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1955/44800790765_f0ee7e5148_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_07.jpg"),
-        thumbnail: require("../images/3_07.jpg"),
-        caption:
-          "The desert moon makes the ambience serene and ignites passion in our hearts, just like a lovers' touch.",
+        src: "https://farm2.staticflickr.com/1905/44922857284_c118dcbf36_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4863/44800790885_4ea2ccc15e_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_08.jpg"),
-        thumbnail: require("../images/3_08.jpg"),
-        caption:
-          "The deity garden that is inhabited by the presiding deity of Saanwariya Hospitality's Kutch Resort, Sri Krishna or Saanwariya, meaning the one who has a black complexion.",
-
+        src: "https://farm2.staticflickr.com/1906/45597325382_60ea96848c_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4872/44800791095_ea605a56ac_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_09.jpg"),
-        thumbnail: require("../images/3_09.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
+        src: "https://farm2.staticflickr.com/1974/45597326232_2a0d2ed944_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4868/44800791285_c75a457fe8_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_10.jpg"),
-        thumbnail: require("../images/3_10.jpg"),
-        caption:
-          "The deity garden that is inhabited by the presiding deity of Saanwariya Hospitality's Kutch Resort, Sri Krishna or Saanwariya, meaning the one who has a black complexion.",
+        src: "https://farm2.staticflickr.com/1910/44922859614_332fc9774e_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1921/44990140314_8529dd8d43_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_11.jpg"),
-        thumbnail: require("../images/3_11.jpg"),
-        caption:
-          "The open sky dining section which gives us the most beautiful view to behold, the starlit sky",
+        src: "https://farm2.staticflickr.com/1978/44733573345_329f356c1a_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1946/44800791795_346b784f55_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_12.jpg"),
-        thumbnail: require("../images/3_12.jpg"),
-        caption:
-          "The Bhunga or traditional cottage that is unique to the region of Kutch, gives you the authentic desert experience with a thatched roof, yet is loaded with modern amenities at the Kutch Resort to ensure a comfortable and luxurious stay.",
+        src: "https://farm2.staticflickr.com/1955/31775381588_d48a30458c_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4882/44800792715_996d209788_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_13.jpg"),
-        thumbnail: require("../images/3_13.jpg"),
-        caption:
-          "Saanwariya Hospitality's Kutch Resort is spread over 1.75 acres of land, comprising of tent and cottage accomodations for an authentic desert experience, closest to the White Rann or the salt desert which is only 7 kms away.",
+        src: "https://farm2.staticflickr.com/1908/45597331022_c4c582e5e1_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4828/44800787655_a10b315c95_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_14.jpg"),
-        thumbnail: require("../images/3_14.jpg"),
-        caption:
-          "Saanwariya Hospitality's Kutch Resort is spread over 1.75 acres of land, comprising of tent and cottage accomodations for an authentic desert experience, closest to the White Rann or the salt desert which is only 7 kms away.",
+        src: "https://farm2.staticflickr.com/1936/31775383488_ed70dce47a_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4839/44800794065_70aabc78df_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_15.jpg"),
-        thumbnail: require("../images/3_15.jpg"),
-        caption:
-          "The picturesque beauty of the sunsets viewed from Saanwariya Hospitality's Kutch Resort is every photographer and nature lover's delight!",
+        src: "https://farm2.staticflickr.com/1902/31775384148_0a46cc8059_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4819/44990143154_f1cde470ba_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_16.jpg"),
-        thumbnail: require("../images/3_16.jpg"),
-        caption:
-          "The desert moon makes the ambience serene and ignites passion in our hearts, just like a lovers' touch.",
+        src: "https://farm2.staticflickr.com/1957/31775384958_8f80eeb9d1_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4812/30774443357_7987a60401_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_17.jpg"),
-        thumbnail: require("../images/3_17.jpg"),
-        caption:
-          "The tent section consisting of more than a dozen tents spread over 15000 sq ft, makes it an ideal camping place for small as well as large groups.",
+        src: "https://farm2.staticflickr.com/1916/31775382688_f26b3c22f9_b.jpg",
+        thumbnail:
+          "https://farm5.staticflickr.com/4907/44800793475_940ff562fb_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_18.jpg"),
-        thumbnail: require("../images/3_18.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
+        src: "https://farm2.staticflickr.com/1934/43829573190_9f9a107900_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1945/44990141514_e04696d4eb_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_19.jpg"),
-        thumbnail: require("../images/3_19.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
+        src: "https://farm2.staticflickr.com/1931/43829571510_756d86f3f6_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1958/44990140874_2826f25edd_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       },
       {
-        src: require("../images/1_20.jpg"),
-        thumbnail: require("../images/3_20.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
-        thumbnailWidth: 320,
-        thumbnailHeight: 200
-      },
-      {
-        src: require("../images/1_21.jpg"),
-        thumbnail: require("../images/3_21.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
-        thumbnailWidth: 320,
-        thumbnailHeight: 200
-      },
-      {
-        src: require("../images/1_22.jpg"),
-        thumbnail: require("../images/3_22.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
-        thumbnailWidth: 320,
-        thumbnailHeight: 200
-      },
-      {
-        src: require("../images/1_23.jpg"),
-        thumbnail: require("../images/3_23.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
-        thumbnailWidth: 320,
-        thumbnailHeight: 200
-      },
-      {
-        src: require("../images/1_24.jpg"),
-        thumbnail: require("../images/3_24.jpg"),
-        caption:
-          "The Bhunga section spread over 12000 sq ft is specifically designed for those wanting a peaceful family vacation with complete privacy and the most comfortable desert stay.",
+        src: "https://farm2.staticflickr.com/1968/45597329702_31dd5fa754_b.jpg",
+        thumbnail:
+          "https://farm2.staticflickr.com/1948/44990140574_ff1b409c02_m.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200
       }
