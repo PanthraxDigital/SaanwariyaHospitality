@@ -31,7 +31,7 @@ class about extends React.Component {
                   <p className="intro_text" style={{ margin: "0" }}>
                     Saanwariya Hospitality got its name from Saanwariya Sheth
                     Temple in Rajasthan, dedicated to Lord Shri Krishna, under
-                    whose blessings Saanwariya Hospitality came into being. We
+                    whose blessings Saanwariya Hospitality came into being. <br />We
                     first ventured into Kutch Resort which is situated roughly 7
                     kms away from the White Salt Desert in the Great Rann of
                     Kutch. Here, we specialise in luxurious tent and
@@ -42,12 +42,12 @@ class about extends React.Component {
                     section as well as traditional dining room, separate play
                     areas for indoor as well as outdoor sports along with A/Cs,
                     heaters, televisions and intercom services in each of the
-                    rooms. Saanwariya Hospitality has humbly served over 3000
+                    rooms. <br />Saanwariya Hospitality has humbly served over 3000
                     guests in the last two years of service. Our standards keep
                     getting higher to provide for better customer satisfaction
                     with each passing year. We serve our guests with a variety
                     of finger licking vegetarian delicacies from a wide range of
-                    Indian cuisines!! At Saanwariya Hospitality's Kutch Resort,
+                    Indian cuisines!! <br />At Saanwariya Hospitality's Kutch Resort,
                     we also provide transportation for our guests to visit
                     popular tourist destinations around.
                   </p>

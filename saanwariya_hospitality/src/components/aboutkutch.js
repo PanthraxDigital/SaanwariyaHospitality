@@ -34,26 +34,26 @@ class aboutkutch extends React.Component {
                     famous for the flat snow-white salt marsh, commonly called
                     the White Desert, which is bone-dry all winter, then totally
                     flooded with an overflow of seawater into the desert, post
-                    summer due to heavy rainfall. On a full moon night, this
+                    summer due to heavy rainfall.<br /> On a full moon night, this
                     already white washed desert lights up and transports you in
                     another world where your heart meets your soul. So much of
                     who we are is where we have been. No matter how amazing
                     pictures you manage to click, you can never captured the
                     beauty of Kutch simply through a lens!! The beauty of this
                     terrain can be cherished only when you see it and experience
-                    it. Whether you are a travel enthusiast or a history buff,
+                    it. <br />Whether you are a travel enthusiast or a history buff,
                     photo fanatic or an experience seeker you are bound to be
-                    amazed by this beautiful place.KUTCH, the place which is
+                    amazed by this beautiful place. KUTCH, the place which is
                     known for its artistic handicrafts, flamingo sanctuary, the
                     famous Kutchi food delicacies, the local markets and the
                     famous local beauty. It is a fascinating place to be in
                     because of it's gateways, old palaces, ornate temples and
-                    winding lanes. Tourists come from every corner of the world
+                    winding lanes. <br />Tourists come from every corner of the world
                     and from all over India for experiencing the beauty of this
                     amazing place, shopping and much more. It's a unique
                     experience to stay in the tents and bhungas of Kutch and to
                     enjoy its beautiful landscapes with a safe and comfortable
-                    stay. It's a sight that is unlikely to fade for a long time.
+                    stay. It's a sight that is unlikely to fade for a long time.<br />
                     Saawariya Hospitality's Kutch resort promises to provide you
                     a homely stay with a surreal lifetime experience of the
                     Beautiful Kutch. So, what are you waiting for? Book your
@@ -66,7 +66,7 @@ class aboutkutch extends React.Component {
           </div>
         </div>
 
-        <div className="add intro_image_hide">
+        <div className="add intro_image_hide" style={{marginTop:'3em'}}>
           <div className="container">
             <div className="row">
               <div className="col">
