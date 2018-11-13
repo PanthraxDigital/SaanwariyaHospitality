@@ -13,8 +13,6 @@ class Search extends React.Component {
     let adultStr = this.adult.value;
     let childStr = this.child.value;
 
-    
-
     axios
       .post("http://api.saanwariyahospitality.com:4004/api/BookNow", {
         phone: phoneNumberStr,
@@ -24,11 +22,11 @@ class Search extends React.Component {
         child: childStr
       })
       .then(function(response) {
-        alert("sucess");
+        alert("Thank you. Our executive will get in touch with you");
       })
       .catch(function(error) {
-        alert("Failure");
-        console.log("error " + error);
+        alert("Failure. Please try again later");
+        
       });
   }
 
@@ -41,7 +39,7 @@ class Search extends React.Component {
               close
             </span>
             <div className="search_panel active">
-              <form
+              <div
                 id="search_form_1"
                 className="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start"
               >
@@ -107,7 +105,7 @@ class Search extends React.Component {
                   <span />
                   <span />
                 </button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
