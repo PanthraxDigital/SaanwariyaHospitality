@@ -1,10 +1,47 @@
 import React from "react";
 import "../styles/main_styles.css";
 import "../styles/responsive.css";
+import axios from "axios";
+import lodash from "lodash";
 
 class contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submitContact = this.submitContact.bind(this);
+  }
+
+  submitContact() {
+    let nameStr = this.name.value;
+    let phoneStr = this.phone.value;
+    let emailStr = this.email.value;
+    let subjectStr = this.subject.value;
+    let messageStr = this.message.value;
+
+    if (nameStr.length == 0) {
+      //alert('enter name');
+      //this.name.attributes["required"]='required';
+      
+    }
+
+    // axios
+    //   .post("http://api.saanwariyahospitality.com:4004/api/Contact", {
+    //     name: nameStr,
+    //     phone: phoneStr,
+    //     email: emailStr,
+    //     subject: subjectStr,
+    //     message: messageStr
+    //   })
+    //   .then(function(response) {
+    //     alert("Thank you. Our executive will get in touch with you");
+    //   })
+    //   .catch(function(error) {
+    //     alert("Failure. Please try again later");
+    //   });
+  }
+
   render() {
     window.scrollTo(0, 0);
+
     return (
       <React.Fragment>
         <div className="home home_375">
@@ -20,7 +57,7 @@ class contact extends React.Component {
               <div className="col">
                 <div className="contact_form_container">
                   <div className="contact_title text-center">get in touch</div>
-                  <form
+                  <div
                     action="#"
                     id="contact_form"
                     className="contact_form text-center"
@@ -30,8 +67,7 @@ class contact extends React.Component {
                       id="contact_form_name"
                       className="contact_form_name input_field"
                       placeholder="Name"
-                      required="required"
-                      data-error="Name is required."
+                      ref={ref => (this.name = ref)}
                     />
                     <input
                       type="text"
@@ -39,6 +75,7 @@ class contact extends React.Component {
                       className="contact_form_email input_field"
                       placeholder="E-mail"
                       required="required"
+                      ref={ref => (this.email = ref)}
                       data-error="Email is required."
                       style={{ marginBottom: "20px" }}
                     />
@@ -47,11 +84,13 @@ class contact extends React.Component {
                       id="contact_form_phone_number"
                       className="contact_form_name input_field"
                       placeholder="Phone Number"
+                      ref={ref => (this.phone = ref)}
                       required="required"
                       data-error="Phone Number is required."
                     />
                     <input
                       type="text"
+                      ref={ref => (this.subject = ref)}
                       id="contact_form_subject"
                       className="contact_form_email input_field"
                       placeholder="Subject"
@@ -64,6 +103,7 @@ class contact extends React.Component {
                       className="text_field contact_form_message"
                       name="message"
                       rows="4"
+                      ref={ref => (this.message = ref)}
                       placeholder="Message"
                       required="required"
                       data-error="Please, write us a message."
@@ -71,6 +111,7 @@ class contact extends React.Component {
                     <button
                       type="submit"
                       id="form_submit_button"
+                      onClick={this.submitContact}
                       className="form_submit_button button trans_200"
                     >
                       send message
@@ -78,7 +119,7 @@ class contact extends React.Component {
                       <span />
                       <span />
                     </button>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>

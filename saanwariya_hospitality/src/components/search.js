@@ -1,10 +1,23 @@
 import React from "react";
 import axios from "axios";
+import alertToast from "../components/alertToast";
+import DatePicker from "react-datepicker";
+import moment from "moment";
 
 class Search extends React.Component {
   constructor(props) {
     super(props);
     this.submit = this.submit.bind(this);
+    this.state = {
+      startDate: moment()
+    };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(date) {
+    this.setState({
+      startDate: date
+    });
   }
   submit() {
     let phoneNumberStr = this.phoneNumber.value;
@@ -22,11 +35,11 @@ class Search extends React.Component {
         child: childStr
       })
       .then(function(response) {
+        this.props.hideBookNow;
         alert("Thank you. Our executive will get in touch with you");
       })
       .catch(function(error) {
         alert("Failure. Please try again later");
-        
       });
   }
 
@@ -46,11 +59,10 @@ class Search extends React.Component {
                 <div className="search_item">
                   <div>phone number</div>
                   <input
-                    type="text"
+                    type="number"
                     ref={ref => (this.phoneNumber = ref)}
-                    placeholder="+00-000-000-0000"
+                    placeholder="00-000-000-0000"
                     className="destination search_input"
-                    required="required"
                   />
                 </div>
                 <div className="search_item">
@@ -61,6 +73,13 @@ class Search extends React.Component {
                     placeholder="DD-MM-YYYY"
                     ref={ref => (this.checkIn = ref)}
                   />
+                  {/* <DatePicker
+                    ref={ref => (this.checkIn = ref)}
+                    selected={this.state.startDate}
+                    onChange={this.handleChange}
+                    todayButton={"Today"}
+                    className="check_in search_input"
+                  /> */}
                 </div>
                 <div className="search_item">
                   <div>check out</div>

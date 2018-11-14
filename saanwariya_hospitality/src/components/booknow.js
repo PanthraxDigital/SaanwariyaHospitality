@@ -19,6 +19,7 @@ class BookNow extends React.Component {
   }
 
   render() {
+    
     return (
       <div>
         {this.state.showBooNow ? (
@@ -27,7 +28,7 @@ class BookNow extends React.Component {
           </div>
         ) : (
           <div className="fixedBN" onClick={this.showBooNowFn}>
-            <span >Book Now</span>
+            <span>Book Now</span>
           </div>
         )}
       </div>
