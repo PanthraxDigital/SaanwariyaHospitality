@@ -17,26 +17,24 @@ class contact extends React.Component {
     let subjectStr = this.subject.value;
     let messageStr = this.message.value;
 
-    if (nameStr.length == 0) {
-      //alert('enter name');
-      //this.name.attributes["required"]='required';
-      
-    }
+    // if (nameStr.length == 0) {
+    //   alert('enter name');
+    // }
 
-    // axios
-    //   .post("http://api.saanwariyahospitality.com:4004/api/Contact", {
-    //     name: nameStr,
-    //     phone: phoneStr,
-    //     email: emailStr,
-    //     subject: subjectStr,
-    //     message: messageStr
-    //   })
-    //   .then(function(response) {
-    //     alert("Thank you. Our executive will get in touch with you");
-    //   })
-    //   .catch(function(error) {
-    //     alert("Failure. Please try again later");
-    //   });
+    axios
+      .post("http://api.saanwariyahospitality.com:4004/api/Contact", {
+        name: nameStr,
+        phone: phoneStr,
+        email: emailStr,
+        subject: subjectStr,
+        message: messageStr
+      })
+      .then(function(response) {
+        alert("Thank you. Our executive will get in touch with you");
+      })
+      .catch(function(error) {
+        alert("Failure. Please try again later");
+      });
   }
 
   render() {
@@ -170,6 +168,26 @@ class contact extends React.Component {
                       </a>
                     </li>
                   </ul>
+                  <br />
+                  <br />
+                  <div>
+                    <div>
+                      <strong>A/c Name : </strong> Saanwariya hospitality{" "}
+                    </div>
+                    <div>
+                      <strong>A/c No : </strong>409000759718
+                    </div>
+                    <div>
+                      <strong>IFSC Code : </strong> RATN0000172{" "}
+                    </div>
+                    <div>
+                      <strong>Bank Name : </strong> RBL BANK LTD
+                    </div>
+                    <div>
+                      {" "}
+                      <strong>Branch : </strong> Bhirandiyara{" "}
+                    </div>
+                  </div>
                   <br />
                   <br />
                   <div />

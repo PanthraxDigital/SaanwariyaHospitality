@@ -16,7 +16,7 @@ class Testimonial extends React.Component {
       speed: 500,
       infinite: true,
       slidesToShow: 3,
-      arrows : false,
+      arrows: false,
       slidesToScroll: 1,
       responsive: [
         {
@@ -44,18 +44,19 @@ class Testimonial extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col">
-            <h2 className="intro_title text-center">
-                Happy Visitors
-              </h2>
-            
+              <h2 className="intro_title text-center">Happy Visitors</h2>
+
               <div className="test_slider_container">
                 <div className="owl-carousel owl-theme test_slider">
                   <Slider {...settings}>
                     {testimonial.map((data, index) => (
                       <div key={index}>
-                        <div className="test_item" >
+                        <div className="test_item">
                           <div className="test_image">
-                            <img src={`${data.profileImage}`} style={{height:'13em'}}/>
+                            <img
+                              src={`${data.profileImage}`}
+                              style={{ height: "13em" }}
+                            />
                           </div>
                           <div className="test_content_container">
                             <div className="test_content">
@@ -65,7 +66,8 @@ class Testimonial extends React.Component {
                               <div className="test_quote_title">
                                 {data.title}
                               </div>
-                              <p className="test_quote_text">{data.subTitle}</p>
+                              <p className="test_quote_text">{data.subTitle} <a href={data.readMore}>[read more]</a></p>
+                              
                             </div>
                           </div>
                         </div>
