@@ -171,6 +171,7 @@ class contact extends React.Component {
                   <br />
                   <br />
                   <div>
+                    <h4 style={{color:'black'}}>Payment Details </h4>
                     <div>
                       <strong>A/c Name : </strong> Saanwariya hospitality{" "}
                     </div>

@@ -66,6 +66,14 @@ class Header extends React.Component {
                             <i className="fa fa-instagram" aria-hidden="true" />
                           </a>
                         </li>
+                        <li className="social_list_item">
+                          <a
+                            href="http://api.saanwariyahospitality.com:4004/keystone/signin"
+                            target="_blank"
+                          >
+                            Login
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
