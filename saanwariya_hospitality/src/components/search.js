@@ -35,7 +35,6 @@ class Search extends React.Component {
         child: childStr
       })
       .then(function(response) {
-        this.props.hideBookNow;
         alert("Thank you. Our executive will get in touch with you");
       })
       .catch(function(error) {
