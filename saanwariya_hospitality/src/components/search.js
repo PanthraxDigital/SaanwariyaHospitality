@@ -39,6 +39,7 @@ class Search extends React.Component {
         alert("Thank you. Our executive will get in touch with you");
       })
       .catch(function(error) {
+        console.log("error " + error);
         alert("Failure. Please try again later");
       });
   }
