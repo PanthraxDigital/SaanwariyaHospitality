@@ -250,6 +250,7 @@
     width: 100%;
     background: transparent;
     overflow: hidden;
+    height: 29em;
   }
 
   .home_375 {
@@ -274,7 +275,7 @@
   }
   .intro {
     padding-bottom: 3em;
-    margin-top: -55%;
+    margin-top: -50%;
     padding-top: 0em;
   }
   .intro_title {
@@ -286,7 +287,7 @@
     display: none;
   }
   .marginTopSpace {
-    margin-top: 0.5em;
+    margin-top: 1.5em;
   }
   .intro_items {
     margin-top: 1em;
@@ -523,3 +524,30 @@
     padding-top: 3em;
   }
 }
+
+
+/* @media only screen and (max-width: 320px) {
+  .marginTopSpace {
+    margin-top: 0.5em;
+    background-color: red;
+  }
+} */
+
+/* @media only screen and (max-width: 361px) {
+  .marginTopSpace {
+    margin-top: 0.5em;
+    background-color: blue;
+  }
+} */
+
+/* @media only screen and (max-width: 411px) {
+  .marginTopSpace {
+    margin-top: 1.0em;
+    background-color: yellow;
+  }
+} */
+
+/*
+max-width : If [device width] is less than or equal to 600px, then do {…}”
+min-width : If [device width] is greater than or equal to 600px, then do {…}”
+*/
