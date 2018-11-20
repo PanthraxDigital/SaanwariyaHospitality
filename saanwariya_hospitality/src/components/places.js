@@ -5,7 +5,7 @@ import { width } from "window-size";
 
 class Places extends React.Component {
   render() {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
     return (
       <div>
         <div className="home">
@@ -24,7 +24,10 @@ class Places extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 temp_col">
-                <div className="intro_title" style={{ textAlign: "center" }}>
+                <div
+                  className="placeToVisitTitle"
+                  style={{ textAlign: "center" }}
+                >
                   Unforgettable Places at Kutch
                 </div>
               </div>
@@ -39,7 +42,7 @@ class Places extends React.Component {
                               className="offers_image_background"
                               style={{
                                 backgroundImage: `url(${data.imageUrl})`,
-                                height:'12em'
+                                height: "12em"
                               }}
                             />
                           </div>

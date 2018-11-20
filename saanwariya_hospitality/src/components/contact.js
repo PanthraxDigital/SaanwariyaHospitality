@@ -171,7 +171,7 @@ class contact extends React.Component {
                   <br />
                   <br />
                   <div>
-                    <h4 style={{color:'black'}}>Payment Details </h4>
+                    <h4 style={{ color: "black" }}>Payment Details </h4>
                     <div>
                       <strong>A/c Name : </strong> Saanwariya hospitality{" "}
                     </div>
@@ -202,7 +202,7 @@ class contact extends React.Component {
                       <div>
                         <div className="contact_info_icon">
                           <img
-                            src={require("../images/placeholder.svg")}
+                            src="https://farm5.staticflickr.com/4905/32099846318_8b28e00fe3_t.jpg"
                             alt=""
                           />
                         </div>
@@ -213,7 +213,7 @@ class contact extends React.Component {
                       <div>
                         <div className="contact_info_icon">
                           <img
-                            src={require("../images/phone-call.svg")}
+                            src="https://farm5.staticflickr.com/4902/32099845778_8861cf01ea_t.jpg"
                             alt=""
                           />
                         </div>
@@ -223,7 +223,10 @@ class contact extends React.Component {
                     <li className="contact_info_item d-flex flex-row">
                       <div>
                         <div className="contact_info_icon">
-                          <img src={require("../images/message.svg")} alt="" />
+                          <img
+                            src="https://farm5.staticflickr.com/4874/32099847908_4af0ec526d_t.jpg"
+                            alt=""
+                          />
                         </div>
                       </div>
                       <div className="contact_info_text">
@@ -239,7 +242,7 @@ class contact extends React.Component {
                       <div>
                         <div className="contact_info_icon">
                           <img
-                            src={require("../images/planet-earth.svg")}
+                            src="https://farm5.staticflickr.com/4895/32099846898_ec0caf230c_t.jpg"
                             alt=""
                           />
                         </div>
