@@ -79,7 +79,7 @@ class Places extends React.Component {
                                 </div>
                               </div>
                             </div>
-                            <p className="offers_text">{data.subtitle}</p>
+                            <p className="offers_text" style={{display:'display'}}>{data.subtitle}</p>
                             <div
                               className="offers_icons"
                               style={{ display: "none" }}
